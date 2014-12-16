@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="CS-Studio-CSNS" uid="cs-studio-csns" id="org.csstudio.product.product" application="org.csstudio.product.application" version="4.0.1.qualifier" useFeatures="true" includeLaunchers="true">
+
+   <aboutInfo>
+      <image path="/product/plugins/org.csstudio.product/icons/cs-studio-about.png"/>
+   </aboutInfo>
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <vmArgs>-Xmx1024m
+-Xms128m
+      </vmArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      </vmArgsMac>
+   </launcherArgs>
+
+   <windowImages i16="/product/plugins/org.csstudio.product/icons/css16.png" i32="/product/plugins/org.csstudio.product/icons/css32.png" i48="/product/plugins/org.csstudio.product/icons/css48.png" i64="/product/plugins/org.csstudio.product/icons/css64.png" i128="/product/plugins/org.csstudio.product/icons/css128.png"/>
+
+   <splash
+      location="org.csstudio.product"
+      startupProgressRect="5,275,445,15"
+      startupMessageRect="7,252,445,20"
+      startupForegroundColor="00FF40" />
+   <launcher name="cs-studio-csns">
+      <solaris/>
+      <win useIco="true">
+         <bmp/>
+      </win>
+   </launcher>
+
+   <intro introId="org.eclipse.ui.intro.universal"/>
+
+   <vm>
+   </vm>
+
+
+   <plugins>
+   </plugins>
+
+   <features>
+      <feature id="org.eclipse.rcp"/>
+      <feature id="org.eclipse.equinox.p2.user.ui"/>
+      <feature id="org.eclipse.equinox.p2.core.feature"/>
+      <feature id="org.eclipse.equinox.p2.rcp.feature"/>
+      <feature id="org.eclipse.equinox.p2.extras.feature"/>
+      <feature id="org.csstudio.product.feature"/>
+      <feature id="org.csstudio.core.feature"/>
+      <feature id="org.csstudio.pvmanager.feature"/>
+      <feature id="org.csstudio.pvmanager.ca.feature"/>
+      <feature id="org.csstudio.pvmanager.exec.feature"/>
+      <feature id="org.csstudio.pvmanager.extra.feature"/>
+      <feature id="org.csstudio.pvmanager.jdbc.feature"/>
+      <feature id="org.csstudio.pvmanager.pva.feature"/>
+      <feature id="org.csstudio.utilities.feature"/>
+      <feature id="org.csstudio.pvmanager.autocomplete.feature"/>
+      <feature id="org.csstudio.product.configuration.feature"/>
+      <feature id="org.csstudio.opibuilder.feature"/>
+      <feature id="org.csstudio.boy.feature"/>
+      <feature id="org.csstudio.channel.feature"/>
+      <feature id="org.csstudio.olog.feature"/>
+      <feature id="org.csstudio.alarm.beast.ui.feature"/>
+      <feature id="org.csstudio.email.feature"/>
+      <feature id="org.csstudio.trends.databrowser2.feature"/>
+      <feature id="org.eclipse.egit"/>
+      <feature id="org.csstudio.logbook.viewer.feature"/>
+      <feature id="org.csstudio.channelfinder.feature"/>
+      <feature id="org.csstudio.shift.feature"/>
+      <feature id="org.csstudio.csns.product.feature"/>
+      <feature id="org.csstudio.scan.ui.feature"/>
+      <feature id="org.eclipse.emf.common"/>
+      <feature id="org.eclipse.emf.ecore"/>
+      <feature id="org.eclipse.jgit"/>
+      <feature id="org.eclipse.e4.rcp"/>
+   </features>
+
+   <configurations>
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.p2.reconciler.dropins" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
+   </configurations>
+
+</product>
