@@ -55,9 +55,8 @@ Or make your site-specific products(Not included in this documents yet).
 
 ## 4. Configuring maven ##
 
-First , clone the composite repository from:
-#####################################
-#####################################
+First , download the composite p2 repository **'p2repo'** here:
+https://github.com/ksdj/org.csstudio.csns.product/tree/master/docs
 
 Make a Local Repository:
     
