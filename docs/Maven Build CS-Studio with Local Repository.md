@@ -44,7 +44,7 @@ Make a git repository and clone the source codes:
 
 Then select one of the products from github:
 
-    git clone https://org.csstudio.sns.git
+    git clone https://github.com/ControlSystemStudio/org.csstudio.sns.git
 
 Or
 
