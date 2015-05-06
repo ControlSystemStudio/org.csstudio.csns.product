@@ -1,0 +1,165 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.csstudio</groupId>
+    <artifactId>csns-product</artifactId>
+    <version>1.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>csns-repository</artifactId>
+  <packaging>eclipse-repository</packaging>
+
+  <build>
+    <plugins>
+      <!-- Icons are in .../plugins/org.csstudio.basic.epics.product/icons,
+           but tycho wants them in .../repository/target/products/org.csstudio.basic.epics.product.product/org.csstudio.basic.epics.product/icons
+           https://gist.github.com/briandealwis/907654 suggested an antrun copy
+       -->
+      <plugin>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <version>1.7</version>
+        <executions>
+          <execution>
+            <phase>process-resources</phase>
+            <configuration>
+              <failOnError>true</failOnError>
+              <target>
+                <echo message="Copying icons into tycho target directory ${project.build.directory}" />
+                <copy verbose="false"
+                  todir="${project.build.directory}/products/org.csstudio.basic.epics.product.product">
+                  <fileset dir="${project.build.directory}/../../csns-plugins">
+                    <include name="org.csstudio.basic.epics.product/icons/**" />
+                  </fileset>
+                </copy>
+                <copy
+                  todir="${project.build.directory}/products/org.csstudio.csns.product.product">
+                  <fileset dir="${project.build.directory}/../../csns-plugins">
+                    <include name="org.csstudio.csns.product/icons/**" />
+                  </fileset>
+                </copy>
+              </target>
+            </configuration>
+            <goals>
+              <goal>run</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>tycho-p2-director-plugin</artifactId>
+        <version>${tycho.version}</version>
+        <configuration>
+          <!-- Will build a product for every *.product file found,
+               but details of generated files are configured in there.
+            -->
+          <products>
+            <product>
+              <!-- 'uid' in the *.product -->
+              <id>org.csstudio.csns.product.product</id>
+              <!-- Add version number to product top directory and zipped product -->
+              <rootFolder>csns-css-${csns.version}</rootFolder>
+              <archiveFileName>csns-csstudio-${csns.version}</archiveFileName>
+              <!-- When creating ZIP archive for more than one product, need 'attachId'  -->
+              <attachId>csns-css</attachId>
+            </product>
+            <product>
+              <id>org.csstudio.csns.scanserver.product</id>
+              <rootFolder>scanserver-${csns.version}</rootFolder>
+              <archiveFileName>scanserver-${csns.version}</archiveFileName>
+              <attachId>scanserver</attachId>
+            </product>
+          </products>
+        </configuration>
+        <executions>
+          <!-- Create products listed above.
+               In addition, features listed in category.xml
+               turn into installable features.
+            -->
+          <execution>
+            <id>materialize-products</id>
+            <goals>
+              <goal>materialize-products</goal>
+            </goals>
+          </execution>
+          <!-- Zip the products -->
+          <execution>
+            <id>archive-products</id>
+            <goals>
+              <goal>archive-products</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>tycho-p2-repository-plugin</artifactId>
+        <version>${tycho.version}</version>
+        <configuration>
+          <includeAllDependencies>true</includeAllDependencies>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <!-- As a result of the director plugin run configured above,
+       products will be generated under
+           cs-studio-CSNS/repository/target/products/*,
+       and a P2 repo for installing additional features under
+           cs-studio-CSNS/repository/target/repository.
+
+       If a local repository is specified, mirror the build repository
+       to that local repository
+  -->  
+  <profiles>
+    <profile>
+      <id>csstudio-local-repo-mirror</id>
+      <activation>
+        <property>
+          <name>csstudio.local.repo</name>
+        </property>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.eclipse.tycho.extras</groupId>
+            <artifactId>tycho-p2-extras-plugin</artifactId>
+            <version>${tycho.version}</version>
+            <executions>
+              <execution>
+                <id>mirror-build-to-local-repository</id>
+                <phase>package</phase>
+                <goals>
+                    <goal>mirror</goal>
+                </goals>
+                <configuration>
+                  <!-- Details: https://www.eclipse.org/tycho/sitedocs-extras/tycho-p2-extras-plugin/mirror-mojo.html -->
+                  <source>
+                    <repository>
+                      <url>${project.baseUri}/target/repository</url>
+                      <layout>p2</layout>
+                    </repository>
+                  </source>
+                  <append>true</append>
+                  <compress>true</compress>
+                  <mirrorMetadataOnly>false</mirrorMetadataOnly>
+                  <destination>${csstudio.local.repo}</destination>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <groupId>org.eclipse.tycho</groupId>
+            <artifactId>tycho-p2-repository-plugin</artifactId>
+            <version>${tycho.version}</version>
+            <configuration>
+              <includeAllDependencies>true</includeAllDependencies>
+            </configuration>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+  
+  
+</project>

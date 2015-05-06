@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<feature
-      id="org.csstudio.csns.product.feature"
-      label="CS-Studio CSNS Product Configuration"
-      version="4.0.1.qualifier"
-      provider-name="CS-Studio Collaboration &lt;cs-studio-core@lists.sourceforge.net&gt;"
-      plugin="org.csstudio.product">
-
-</feature>
