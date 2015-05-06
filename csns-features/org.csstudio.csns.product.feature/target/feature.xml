@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.csstudio.csns.product.feature"
+      label="CSNS-CSS-Product_Feature"
+      version="1.0.1.201505060728"
+      provider-name="Yongxiang Qiu"
+      plugin="org.csstudio.csns.css.product">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="org.csstudio.csns.css.product"
+         download-size="262"
+         install-size="609"
+         version="1.0.1.201505060728"
+         unpack="false"/>
+
+</feature>
