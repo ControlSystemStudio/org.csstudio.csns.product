@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="CSNS-Css" uid="org.csstudio.csns.product.product" id="org.csstudio.csns.css.product.product" application="org.csstudio.csns.css.product.csns-application" version="1.0.1.qualifier" useFeatures="true" includeLaunchers="true">
+
+   <aboutInfo>
+      <image path="/org.csstudio.csns.css.product/icons/aboutSide.png"/>
+      <text>
+         Control System Studio (CSS) is a combined
+effort of several parties, including
+- SNS (Oak Ridge, TN).
+- BNL (Brookhaven, NY)
+- DESY (Hamburg, Germany)
+- CSNS (Dongguan, China)
+
+
+It provides a collection of control system
+tools in a common environment, based
+on Eclipse.
+      </text>
+   </aboutInfo>
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <programArgsLin>--launcher.GTK_version
+2
+      </programArgsLin>
+      <vmArgs>-Xmx1024m
+      </vmArgs>
+      <vmArgsLin>-Dorg.eclipse.swt.internal.gtk.cairoGraphics=false
+      </vmArgsLin>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      </vmArgsMac>
+   </launcherArgs>
+
+   <windowImages i16="/org.csstudio.csns.css.product/icons/css16.png" i32="/org.csstudio.csns.css.product/icons/css32.png" i48="/org.csstudio.csns.css.product/icons/css48.png" i64="/org.csstudio.csns.css.product/icons/css64.png" i128="/org.csstudio.csns.css.product/icons/css128.png"/>
+
+   <splash
+      location="org.csstudio.csns.css.product"
+      startupProgressRect="20,215,340,15"
+      startupMessageRect="20,195,340,20"
+      startupForegroundColor="FFFDFA" />
+   <launcher name="csns-css">
+      <solaris/>
+      <win useIco="true">
+         <ico path="/org.csstudio.csns.css.product/icons/css.ico"/>
+         <bmp/>
+      </win>
+   </launcher>
+
+   <intro introId="org.eclipse.ui.intro.universal"/>
+
+   <vm>
+   </vm>
+
+
+   <plugins>
+      <plugin id="com.google.guava"/>
+      <plugin id="com.ibm.icu.base"/>
+      <plugin id="javax.annotation"/>
+      <plugin id="javax.inject"/>
+      <plugin id="javax.servlet"/>
+      <plugin id="org.apache.batik.css"/>
+      <plugin id="org.apache.batik.util"/>
+      <plugin id="org.apache.batik.util.gui"/>
+      <plugin id="org.csstudio.apputil"/>
+      <plugin id="org.csstudio.apputil.test" fragment="true"/>
+      <plugin id="org.csstudio.apputil.ui"/>
+      <plugin id="org.csstudio.csdata"/>
+      <plugin id="org.csstudio.java"/>
+      <plugin id="org.csstudio.java.test" fragment="true"/>
+      <plugin id="org.csstudio.jre6.fragment" fragment="true"/>
+      <plugin id="org.csstudio.logbook"/>
+      <plugin id="org.csstudio.logbook.test" fragment="true"/>
+      <plugin id="org.csstudio.logging"/>
+      <plugin id="org.csstudio.logging.test" fragment="true"/>
+      <plugin id="org.csstudio.logging.ui"/>
+      <plugin id="org.csstudio.openfile"/>
+      <plugin id="org.csstudio.platform.libs.jms"/>
+      <plugin id="org.csstudio.security"/>
+      <plugin id="org.csstudio.security.test" fragment="true"/>
+      <plugin id="org.csstudio.security.ui"/>
+      <plugin id="org.csstudio.security.ui.test" fragment="true"/>
+      <plugin id="org.csstudio.sns.product"/>
+      <plugin id="org.csstudio.startup"/>
+      <plugin id="org.csstudio.startup.helper"/>
+      <plugin id="org.csstudio.ui.menu"/>
+      <plugin id="org.csstudio.ui.menu.app"/>
+      <plugin id="org.csstudio.utility.product"/>
+      <plugin id="org.csstudio.utility.product.default" fragment="true"/>
+      <plugin id="org.csstudio.utility.product.test" fragment="true"/>
+      <plugin id="org.csstudio.utility.singlesource"/>
+      <plugin id="org.csstudio.utility.singlesource.test" fragment="true"/>
+      <plugin id="org.csstudio.utility.test"/>
+      <plugin id="org.csstudio.utility.test.test" fragment="true"/>
+      <plugin id="org.csstudio.workspace"/>
+      <plugin id="org.eclipse.compare.core"/>
+      <plugin id="org.eclipse.core.commands"/>
+      <plugin id="org.eclipse.core.contenttype"/>
+      <plugin id="org.eclipse.core.databinding"/>
+      <plugin id="org.eclipse.core.databinding.observable"/>
+      <plugin id="org.eclipse.core.databinding.property"/>
+      <plugin id="org.eclipse.core.expressions"/>
+      <plugin id="org.eclipse.core.filesystem"/>
+      <plugin id="org.eclipse.core.filesystem.java7" fragment="true"/>
+      <plugin id="org.eclipse.core.filesystem.win32.x86_64" fragment="true"/>
+      <plugin id="org.eclipse.core.jobs"/>
+      <plugin id="org.eclipse.core.resources"/>
+      <plugin id="org.eclipse.core.resources.win32.x86_64" fragment="true"/>
+      <plugin id="org.eclipse.core.runtime"/>
+      <plugin id="org.eclipse.core.runtime.compatibility.registry" fragment="true"/>
+      <plugin id="org.eclipse.core.variables"/>
+      <plugin id="org.eclipse.e4.core.commands"/>
+      <plugin id="org.eclipse.e4.core.contexts"/>
+      <plugin id="org.eclipse.e4.core.di"/>
+      <plugin id="org.eclipse.e4.core.di.extensions"/>
+      <plugin id="org.eclipse.e4.core.services"/>
+      <plugin id="org.eclipse.e4.ui.bindings"/>
+      <plugin id="org.eclipse.e4.ui.css.core"/>
+      <plugin id="org.eclipse.e4.ui.css.swt"/>
+      <plugin id="org.eclipse.e4.ui.css.swt.theme"/>
+      <plugin id="org.eclipse.e4.ui.di"/>
+      <plugin id="org.eclipse.e4.ui.model.workbench"/>
+      <plugin id="org.eclipse.e4.ui.services"/>
+      <plugin id="org.eclipse.e4.ui.widgets"/>
+      <plugin id="org.eclipse.e4.ui.workbench"/>
+      <plugin id="org.eclipse.e4.ui.workbench.addons.swt"/>
+      <plugin id="org.eclipse.e4.ui.workbench.renderers.swt"/>
+      <plugin id="org.eclipse.e4.ui.workbench.swt"/>
+      <plugin id="org.eclipse.e4.ui.workbench3"/>
+      <plugin id="org.eclipse.emf.common"/>
+      <plugin id="org.eclipse.emf.ecore"/>
+      <plugin id="org.eclipse.emf.ecore.change"/>
+      <plugin id="org.eclipse.emf.ecore.xmi"/>
+      <plugin id="org.eclipse.equinox.app"/>
+      <plugin id="org.eclipse.equinox.bidi"/>
+      <plugin id="org.eclipse.equinox.common"/>
+      <plugin id="org.eclipse.equinox.ds"/>
+      <plugin id="org.eclipse.equinox.p2.core"/>
+      <plugin id="org.eclipse.equinox.p2.engine"/>
+      <plugin id="org.eclipse.equinox.p2.metadata"/>
+      <plugin id="org.eclipse.equinox.p2.metadata.repository"/>
+      <plugin id="org.eclipse.equinox.p2.repository"/>
+      <plugin id="org.eclipse.equinox.preferences"/>
+      <plugin id="org.eclipse.equinox.registry"/>
+      <plugin id="org.eclipse.equinox.security"/>
+      <plugin id="org.eclipse.equinox.security.win32.x86_64" fragment="true"/>
+      <plugin id="org.eclipse.equinox.util"/>
+      <plugin id="org.eclipse.fx.javafx"/>
+      <plugin id="org.eclipse.fx.osgi" fragment="true"/>
+      <plugin id="org.eclipse.fx.ui.workbench3"/>
+      <plugin id="org.eclipse.help"/>
+      <plugin id="org.eclipse.jface"/>
+      <plugin id="org.eclipse.jface.databinding"/>
+      <plugin id="org.eclipse.jface.text"/>
+      <plugin id="org.eclipse.osgi"/>
+      <plugin id="org.eclipse.osgi.compatibility.state" fragment="true"/>
+      <plugin id="org.eclipse.osgi.services"/>
+      <plugin id="org.eclipse.rap.jface"/>
+      <plugin id="org.eclipse.rap.rwt"/>
+      <plugin id="org.eclipse.swt"/>
+      <plugin id="org.eclipse.swt.win32.win32.x86_64" fragment="true"/>
+      <plugin id="org.eclipse.text"/>
+      <plugin id="org.eclipse.ui"/>
+      <plugin id="org.eclipse.ui.cheatsheets"/>
+      <plugin id="org.eclipse.ui.console"/>
+      <plugin id="org.eclipse.ui.forms"/>
+      <plugin id="org.eclipse.ui.ide"/>
+      <plugin id="org.eclipse.ui.intro"/>
+      <plugin id="org.eclipse.ui.intro.universal"/>
+      <plugin id="org.eclipse.ui.win32" fragment="true"/>
+      <plugin id="org.eclipse.ui.workbench"/>
+      <plugin id="org.eclipse.ui.workbench.texteditor"/>
+      <plugin id="org.hamcrest.core"/>
+      <plugin id="org.junit"/>
+      <plugin id="org.w3c.css.sac"/>
+      <plugin id="org.w3c.dom.smil"/>
+      <plugin id="org.w3c.dom.svg"/>
+   </plugins>
+
+   <features>
+      <feature id="org.csstudio.csns.product.feature"/>
+      <feature id="org.eclipse.rcp"/>
+      <feature id="org.eclipse.equinox.p2.user.ui"/>
+      <feature id="org.eclipse.equinox.p2.core.feature"/>
+      <feature id="org.eclipse.equinox.p2.rcp.feature"/>
+      <feature id="org.eclipse.equinox.p2.extras.feature"/>
+      <feature id="org.csstudio.core.feature"/>
+      <feature id="org.csstudio.pvmanager.feature"/>
+      <feature id="org.eclipse.emf.ecore"/>
+      <feature id="org.eclipse.ecf.filetransfer.httpclient4.feature"/>
+      <feature id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature"/>
+      <feature id="org.eclipse.emf.common"/>
+      <feature id="org.eclipse.ecf.core.feature"/>
+      <feature id="org.eclipse.ecf.filetransfer.feature"/>
+      <feature id="org.eclipse.ecf.core.ssl.feature"/>
+      <feature id="org.eclipse.ecf.filetransfer.ssl.feature"/>
+      <feature id="org.eclipse.e4.rcp"/>
+      <feature id="org.csstudio.pvmanager.ca.feature"/>
+      <feature id="org.csstudio.pvmanager.exec.feature"/>
+      <feature id="org.csstudio.pvmanager.extra.feature"/>
+      <feature id="org.csstudio.pvmanager.jdbc.feature"/>
+      <feature id="org.csstudio.pvmanager.pva.feature"/>
+      <feature id="org.csstudio.utilities.feature"/>
+      <feature id="org.csstudio.pvmanager.autocomplete.feature"/>
+      <feature id="org.csstudio.product.configuration.feature"/>
+      <feature id="org.csstudio.opibuilder.feature"/>
+      <feature id="org.csstudio.boy.feature"/>
+      <feature id="org.csstudio.channel.feature"/>
+      <feature id="org.csstudio.olog.feature"/>
+      <feature id="org.csstudio.alarm.beast.ui.feature"/>
+      <feature id="org.csstudio.email.feature"/>
+      <feature id="org.csstudio.trends.databrowser2.feature"/>
+      <feature id="org.eclipse.egit"/>
+      <feature id="org.csstudio.logbook.viewer.feature"/>
+      <feature id="org.csstudio.channelfinder.feature"/>
+      <feature id="org.csstudio.shift.feature"/>
+      <feature id="org.csstudio.logbook.shift.feature"/>
+      <feature id="org.csstudio.trends.databrowser2.opiwidget.feature"/>
+      <feature id="org.eclipse.jgit"/>
+   </features>
+
+   <configurations>
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.p2.reconciler.dropins" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
+   </configurations>
+
+</product>
