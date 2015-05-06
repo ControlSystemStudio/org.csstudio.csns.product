@@ -220,6 +220,7 @@ on Eclipse.
       <feature id="org.csstudio.logbook.shift.feature"/>
       <feature id="org.csstudio.trends.databrowser2.opiwidget.feature"/>
       <feature id="org.eclipse.jgit"/>
+      <feature id="org.csstudio.scan.ui.feature"/>
    </features>
 
    <configurations>
