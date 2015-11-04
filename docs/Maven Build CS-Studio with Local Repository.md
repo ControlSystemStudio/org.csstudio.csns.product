@@ -181,7 +181,7 @@ After trying eliminating those errors above. If there are still errors in the fo
 
 Run Eclipse.Select **sns-repository -> sns-css.product** .Double click to open the product file. Click 'Launch an Eclipse application'.
 
-Then cs-studio will have its first run. There may be some errors like missing required bundle, cannot revoled dependencies. If so , close the running csstudio. Right click the product file. **"Run As - Run Configuration"** Open **"Eclipse Application - sns-css.product"** Select tab **Plug-ins** .There is a list showing. It includes all the plugin you will use when you run the product.
+Then cs-studio will have its first run. There may be some errors like missing required bundle, cannot revoled dependencies. If so , terminate the running csstudio. Right click the product file. **"Run As - Run Configuration"** Open **"Eclipse Application - sns-css.product"** Select tab **Plug-ins** .There is a list showing. It includes all the plugin you will use when you run the product.
 
 Search for **'rap'** and untick all of the plugins listed out. Then push the button **'Validate Plug-ins'**, watch carefully each error, add the required plugin one by one. At last all of the errors will be eliminated.
 
