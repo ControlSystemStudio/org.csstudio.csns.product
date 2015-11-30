@@ -34,10 +34,6 @@
                value="CSNS-Css">
          </property>
          <property
-               name="preferenceCustomization"
-               value="plugin_customization.ini">
-         </property>
-         <property
                name="introTitle"
                value="Welcome to Control System Studio for the CSNS!">
          </property>
@@ -60,6 +56,10 @@
          <property
                name="startupProgressRect"
                value="20,215,340,15">
+         </property>
+         <property
+               name="preferenceCustomization"
+               value="plugin_customization.ini">
          </property>
       </product>
    </extension>
