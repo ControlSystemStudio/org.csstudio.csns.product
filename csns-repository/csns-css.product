@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="CSNS-Css" uid="org.csstudio.csns.product.product" id="org.csstudio.csns.css.product.product" application="org.csstudio.csns.css.product.csns-application" version="4.1.0.qualifier" useFeatures="true" includeLaunchers="true">
+<product name="CSNS-Css" uid="org.csstudio.csns.product.product" id="org.csstudio.csns.css.product.product" application="org.csstudio.csns.css.product.csns-application" version="4.1.0" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/org.csstudio.csns.css.product/icons/aboutSide.png"/>

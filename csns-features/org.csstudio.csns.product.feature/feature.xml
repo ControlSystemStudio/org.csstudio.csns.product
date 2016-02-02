@@ -2,7 +2,7 @@
 <feature
       id="org.csstudio.csns.product.feature"
       label="CSNS-CSS-Product_Feature"
-      version="4.1.0.qualifier"
+      version="4.1.0"
       provider-name="Yongxiang Qiu"
       plugin="org.csstudio.csns.css.product">
 

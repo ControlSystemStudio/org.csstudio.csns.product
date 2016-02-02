@@ -5,7 +5,7 @@
   <parent>
   	<groupId>org.csstudio</groupId>
   	<artifactId>csns-features</artifactId>
-  	<version>4.1.0-SNAPSHOT</version>
+  	<version>4.1.0</version>
   	<relativePath>..</relativePath>
   </parent>
   <packaging>eclipse-feature</packaging>

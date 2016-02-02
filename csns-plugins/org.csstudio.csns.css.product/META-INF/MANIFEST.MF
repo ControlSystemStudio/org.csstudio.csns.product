@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: CSNS-Product
 Bundle-SymbolicName: org.csstudio.csns.css.product;singleton:=true
-Bundle-Version: 4.1.0.qualifier
+Bundle-Version: 4.1.0
 Bundle-Vendor: Yongxiang Qiu
 Bundle-ActivationPolicy: lazy
 Require-Bundle: org.eclipse.ui,
@@ -24,5 +24,6 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.equinox.security,
  org.eclipse.ui.cheatsheets,
  org.csstudio.apputil,
- org.csstudio.security.ui
+ org.csstudio.security.ui,
+ org.csstudio.vtype.pv
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8

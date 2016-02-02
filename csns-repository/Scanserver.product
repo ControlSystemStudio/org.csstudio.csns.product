@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="CSNS-ScanServer" uid="org.csstudio.csns.scanserver.product" id="org.csstudio.scan.server.product" application="org.csstudio.scan.server.application" version="4.0.3.qualifier" useFeatures="false" includeLaunchers="true">
-
+<product name="CSNS-ScanServer" uid="org.csstudio.csns.scanserver.product" id="org.csstudio.scan.server.product" application="org.csstudio.scan.server.application" version="4.1.0" useFeatures="false" includeLaunchers="true">
 
    <configIni use="default">
    </configIni>
@@ -23,7 +22,6 @@
 
    <windowImages/>
 
-
    <launcher name="ScanServer">
       <solaris/>
       <win useIco="false">
@@ -31,10 +29,8 @@
       </win>
    </launcher>
 
-
    <vm>
    </vm>
-
 
    <plugins>
       <plugin id="javax.servlet"/>
