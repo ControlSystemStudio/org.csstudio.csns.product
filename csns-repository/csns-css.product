@@ -225,6 +225,11 @@ on Eclipse.
       <feature id="org.csstudio.core.platform.feature"/>
       <feature id="org.csstudio.scan.server.feature"/>
       <feature id="org.csstudio.archive.reader.rdb.feature"/>
+      <feature id="org.python.pydev.feature"/>
+      <feature id="org.eclipse.wst.xml_core.feature"/>
+      <feature id="org.eclipse.wst.xml_ui.feature"/>
+      <feature id="org.eclipse.wst.xml_userdoc.feature"/>
+      <feature id="org.eclipse.jdt"/>
    </features>
 
    <configurations>

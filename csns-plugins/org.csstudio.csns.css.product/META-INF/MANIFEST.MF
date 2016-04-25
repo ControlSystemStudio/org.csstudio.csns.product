@@ -25,5 +25,9 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.ui.cheatsheets,
  org.csstudio.apputil,
  org.csstudio.security.ui,
- org.csstudio.vtype.pv
+ org.csstudio.vtype.pv,
+ org.eclipse.jface.text,
+ org.eclipse.ui.editors,
+ org.eclipse.ui.workbench.texteditor,
+ org.eclipse.ltk.core.refactoring
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
