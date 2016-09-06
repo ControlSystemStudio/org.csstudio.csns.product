@@ -4,7 +4,7 @@
   <parent>
   	<groupId>org.csstudio</groupId>
   	<artifactId>csns-plugins</artifactId>
-  	<version>4.1.0</version>
+  	<version>4.3.0-SNAPSHOT</version>
   </parent>
   <packaging>eclipse-plugin</packaging>
 </project>

@@ -1,0 +1,820 @@
+[INFO] Scanning for projects...
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.pom
+3/11 KB   5/11 KB   8/11 KB   11/11 KB   11/11 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.pom (11 KB at 7.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/2.5.3/maven-release-2.5.3.pom
+3/5 KB     5/5 KB   5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/2.5.3/maven-release-2.5.3.pom (5 KB at 9.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/27/maven-parent-27.pom
+3/40 KB   5/40 KB   8/40 KB   11/40 KB   13/40 KB   16/40 KB   19/40 KB   21/40 KB   24/40 KB   27/40 KB   29/40 KB   32/40 KB   36/40 KB   40/40 KB   40/40 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/27/maven-parent-27.pom (40 KB at 52.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/apache/17/apache-17.pom
+4/16 KB    8/16 KB   12/16 KB   16/16 KB   16/16 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/apache/17/apache-17.pom (16 KB at 32.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.jar
+4/52 KB    8/52 KB   12/52 KB   16/52 KB   20/52 KB   24/52 KB   28/52 KB   32/52 KB   36/52 KB   40/52 KB   44/52 KB   48/52 KB   52/52 KB   52/52 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.jar (52 KB at 69.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/tycho/tycho-versions-plugin/0.23.1/tycho-versions-plugin-0.23.1.pom
+2/2 KB              Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/tycho/tycho-versions-plugin/0.23.1/tycho-versions-plugin-0.23.1.pom (2 KB at 2.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/tycho/tycho-release/0.23.1/tycho-release-0.23.1.pom
+979/979 B               Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/tycho/tycho-release/0.23.1/tycho-release-0.23.1.pom (979 B at 1.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/tycho/tycho-versions-plugin/0.23.1/tycho-versions-plugin-0.23.1.jar
+3/67 KB     5/67 KB   8/67 KB   11/67 KB   13/67 KB   16/67 KB   19/67 KB   21/67 KB   24/67 KB   27/67 KB   29/67 KB   32/67 KB   36/67 KB   40/67 KB   44/67 KB   48/67 KB   52/67 KB   56/67 KB   60/67 KB   64/67 KB   67/67 KB              Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/tycho/tycho-versions-plugin/0.23.1/tycho-versions-plugin-0.23.1.jar (67 KB at 89.4 KB/sec)
+[INFO] Computing target platform for MavenProject: org.csstudio:csns-repository:4.3.0-SNAPSHOT @ /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/pom.xml
+[INFO] Adding repository file:/home/egcs/CSSV4.3/comps_repo
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/mars/ (0B at 0B/s)
+[INFO] Adding repository http://download.eclipse.org/releases/mars
+[INFO] Fetching p2.index from http://download.eclipse.org/technology/epp/packages/mars/ (0B at 0B/s)
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/mars/201506241002/ (0B at 0B/s)
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/mars/201510021000/ (0B at 0B/s)
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/mars/201602261000/ (0B at 0B/s)
+[INFO] Adding repository http://update-production-pydev.s3.amazonaws.com/pydev/updates
+[INFO] Fetching content.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/ (0B of 493.92kB at 0B/s)
+[INFO] Fetching content.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/ (25.17kB of 493.92kB at 22.38kB/s)
+[INFO] Fetching content.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/ (47.55kB of 493.92kB at 18.88kB/s)
+[INFO] Fetching content.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/ (85.3kB of 493.92kB at 23.77kB/s)
+[INFO] Fetching content.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/ (136.4kB of 493.92kB at 26.46kB/s)
+[INFO] Fetching content.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/ (195.33kB of 493.92kB at 32.35kB/s)
+[INFO] Fetching content.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/ (259.79kB of 493.92kB at 37.67kB/s)
+[INFO] Fetching content.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/ (333.91kB of 493.92kB at 52.24kB/s)
+[INFO] Fetching content.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/ (479.63kB of 493.92kB at 64.35kB/s)
+[INFO] Adding repository http://download.eclipse.org/efxclipse/runtime-released/1.2.0/site
+[INFO] Fetching content.jar from http://download.eclipse.org/efxclipse/runtime-released/1.2.0/site/ (0B of 87kB at 0B/s)
+[INFO] Fetching content.jar from http://download.eclipse.org/efxclipse/runtime-released/1.2.0/site/ (20.68kB of 87kB at 16.68kB/s)
+[INFO] Fetching content.jar from http://download.eclipse.org/efxclipse/runtime-released/1.2.0/site/ (43.54kB of 87kB at 17.53kB/s)
+[INFO] Fetching content.jar from http://download.eclipse.org/efxclipse/runtime-released/1.2.0/site/ (71.83kB of 87kB at 18.29kB/s)
+[INFO] Resolving dependencies of MavenProject: org.csstudio:csns-repository:4.3.0-SNAPSHOT @ /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/pom.xml
+[INFO] Fetching &countryCode=us&timeZone=8&format=xml from http://www.eclipse.org/downloads/download.php?format=xml&file=/releases/mars/201506241002/ (0B at 0B/s)
+[INFO] Fetching org.eclipse.debug.core_3.10.0.v20150303-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201506241002/plugins/ (0B of 106.72kB at 0B/s)
+[INFO] Fetching org.eclipse.debug.core_3.10.0.v20150303-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201506241002/plugins/ (19.51kB of 106.72kB at 16.68kB/s)
+[INFO] Fetching org.eclipse.debug.core_3.10.0.v20150303-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201506241002/plugins/ (46.14kB of 106.72kB at 16.83kB/s)
+[INFO] Fetching org.eclipse.debug.core_3.10.0.v20150303-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201506241002/plugins/ (99.84kB of 106.72kB at 23.93kB/s)
+[INFO] Fetching 201602261000&countryCode=us&timeZone=8&format=xml from http://www.eclipse.org/downloads/download.php?format=xml&file=/releases/mars/ (0B at 0B/s)
+[INFO] Fetching org.eclipse.debug.ui_3.11.101.v20160203-1230.jar.pack.gz from http://artfiles.org/eclipse.org//releases/mars/201602261000/plugins/ (0B of 859.72kB at 0B/s)
+[INFO] Fetching org.eclipse.debug.ui_3.11.101.v20160203-1230.jar.pack.gz from http://artfiles.org/eclipse.org//releases/mars/201602261000/plugins/ (22.34kB of 859.72kB at 20.93kB/s)
+[INFO] Fetching org.eclipse.debug.ui_3.11.101.v20160203-1230.jar.pack.gz from http://artfiles.org/eclipse.org//releases/mars/201602261000/plugins/ (98.46kB of 859.72kB at 47.23kB/s)
+[INFO] Fetching org.eclipse.debug.ui_3.11.101.v20160203-1230.jar.pack.gz from http://artfiles.org/eclipse.org//releases/mars/201602261000/plugins/ (423.69kB of 859.72kB at 89.93kB/s)
+[INFO] Fetching org.python.pydev_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (0B of 2.82MB at 0B/s)
+[INFO] Fetching org.python.pydev_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (36.02kB of 2.82MB at 32.02kB/s)
+[INFO] Fetching org.python.pydev_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (70.98kB of 2.82MB at 29.29kB/s)
+[INFO] Fetching org.python.pydev_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (108.93kB of 2.82MB at 31.65kB/s)
+[INFO] Fetching org.python.pydev_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (156.48kB of 2.82MB at 32.48kB/s)
+[INFO] Fetching org.python.pydev_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (215.02kB of 2.82MB at 33.81kB/s)
+[INFO] Fetching org.python.pydev_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (277.77kB of 2.82MB at 43.04kB/s)
+[INFO] Fetching org.python.pydev_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (331.11kB of 2.82MB at 43.88kB/s)
+[INFO] Fetching org.python.pydev_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (396.84kB of 2.82MB at 49.75kB/s)
+[INFO] Fetching org.python.pydev_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (455.38kB of 2.82MB at 50.87kB/s)
+[INFO] Fetching org.python.pydev_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (518.31kB of 2.82MB at 48.11kB/s)
+[INFO] Fetching org.python.pydev_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (588.23kB of 2.82MB at 53.98kB/s)
+[INFO] Fetching org.python.pydev_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (665.95kB of 2.82MB at 52.98kB/s)
+[INFO] Fetching org.python.pydev_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (755.26kB of 2.82MB at 61.09kB/s)
+[INFO] Fetching org.python.pydev_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (848.95kB of 2.82MB at 65.85kB/s)
+[INFO] Fetching org.python.pydev_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (985.63kB of 2.82MB at 74.52kB/s)
+[INFO] Fetching org.python.pydev_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (1.2MB of 2.82MB at 116.8kB/s)
+[INFO] Fetching org.python.pydev_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (1.65MB of 2.82MB at 190.66kB/s)
+[INFO] Fetching org.python.pydev_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (2.32MB of 2.82MB at 281.92kB/s)
+[INFO] Fetching org.python.pydev.core_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (0B of 158.83kB at 0B/s)
+[INFO] Fetching org.python.pydev.core_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (30.42kB of 158.83kB at 26.42kB/s)
+[INFO] Fetching org.python.pydev.core_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (63.99kB of 158.83kB at 25.1kB/s)
+[INFO] Fetching org.python.pydev.core_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (104.74kB of 158.83kB at 26.52kB/s)
+[INFO] Fetching org.python.pydev.core_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (157.88kB of 158.83kB at 28.63kB/s)
+[INFO] Fetching org.python.pydev.ast_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (0B of 7.43kB at 0B/s)
+[INFO] Fetching org.python.pydev.parser_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (0B of 897.37kB at 0B/s)
+[INFO] Fetching org.python.pydev.parser_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (29.22kB of 897.37kB at 26.42kB/s)
+[INFO] Fetching org.python.pydev.parser_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (89.16kB of 897.37kB at 29.99kB/s)
+[INFO] Fetching org.python.pydev.parser_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (235.82kB of 897.37kB at 51.23kB/s)
+[INFO] Fetching org.python.pydev.parser_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (602.26kB of 897.37kB at 83.46kB/s)
+[INFO] Fetching org.python.pydev.debug_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (0B of 707.55kB at 0B/s)
+[INFO] Fetching org.python.pydev.debug_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (40.43kB of 707.55kB at 36.43kB/s)
+[INFO] Fetching org.python.pydev.debug_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (82.38kB of 707.55kB at 33.6kB/s)
+[INFO] Fetching org.python.pydev.debug_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (135.53kB of 707.55kB at 39.18kB/s)
+[INFO] Fetching org.python.pydev.debug_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (198.65kB of 707.55kB at 40.57kB/s)
+[INFO] Fetching org.python.pydev.debug_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (276.35kB of 707.55kB at 42.68kB/s)
+[INFO] Fetching org.python.pydev.debug_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (427.38kB of 707.55kB at 71.48kB/s)
+[INFO] Fetching org.python.pydev.debug_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (670.71kB of 707.55kB at 110.07kB/s)
+[INFO] Fetching org.python.pydev.jython_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (0B of 8.46MB at 0B/s)
+[INFO] Fetching org.python.pydev.jython_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (43.16kB of 8.46MB at 39.16kB/s)
+[INFO] Fetching org.python.pydev.jython_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (89.3kB of 8.46MB at 36.36kB/s)
+[INFO] Fetching org.python.pydev.jython_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (145.2kB of 8.46MB at 42.81kB/s)
+[INFO] Fetching org.python.pydev.jython_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (217.92kB of 8.46MB at 44.34kB/s)
+[INFO] Fetching org.python.pydev.jython_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (313.02kB of 8.46MB at 46.94kB/s)
+[INFO] Fetching org.python.pydev.jython_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (470.13kB of 8.46MB at 55.05kB/s)
+[INFO] Fetching org.python.pydev.jython_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (875.35kB of 8.46MB at 92.35kB/s)
+[INFO] Fetching org.python.pydev.jython_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (1.37MB of 8.46MB at 151.94kB/s)
+[INFO] Fetching org.python.pydev.jython_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (2.02MB of 8.46MB at 366.5kB/s)
+[INFO] Fetching org.python.pydev.jython_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (2.58MB of 8.46MB at 464.67kB/s)
+[INFO] Fetching org.python.pydev.jython_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (3.28MB of 8.46MB at 532.26kB/s)
+[INFO] Fetching org.python.pydev.jython_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (3.85MB of 8.46MB at 605.28kB/s)
+[INFO] Fetching org.python.pydev.jython_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (4.56MB of 8.46MB at 618.67kB/s)
+[INFO] Fetching org.python.pydev.jython_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (5.13MB of 8.46MB at 601.05kB/s)
+[INFO] Fetching org.python.pydev.jython_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (5.85MB of 8.46MB at 632.65kB/s)
+[INFO] Fetching org.python.pydev.jython_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (6.42MB of 8.46MB at 639.92kB/s)
+[INFO] Fetching org.python.pydev.jython_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (7.03MB of 8.46MB at 599.09kB/s)
+[INFO] Fetching org.python.pydev.jython_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (7.52MB of 8.46MB at 604.12kB/s)
+[INFO] Fetching org.python.pydev.jython_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (8.13MB of 8.46MB at 591.26kB/s)
+[INFO] Fetching org.python.pydev.shared_interactive_console_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (0B of 408.45kB at 0B/s)
+[INFO] Fetching org.python.pydev.shared_interactive_console_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (40.63kB of 408.45kB at 37.83kB/s)
+[INFO] Fetching org.python.pydev.shared_interactive_console_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (88.17kB of 408.45kB at 36.4kB/s)
+[INFO] Fetching org.python.pydev.shared_interactive_console_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (145.51kB of 408.45kB at 42.91kB/s)
+[INFO] Fetching org.python.pydev.shared_interactive_console_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (214.03kB of 408.45kB at 44.07kB/s)
+[INFO] Fetching org.python.pydev.shared_interactive_console_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (290.75kB of 408.45kB at 45.88kB/s)
+[INFO] Fetching org.python.pydev.shared_interactive_console_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (405.62kB of 408.45kB at 66.29kB/s)
+[INFO] Fetching org.python.pydev.shared_ui_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (0B of 336.55kB at 0B/s)
+[INFO] Fetching org.python.pydev.shared_ui_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (47.42kB of 336.55kB at 43.42kB/s)
+[INFO] Fetching org.python.pydev.shared_ui_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (248.17kB of 336.55kB at 80.18kB/s)
+[INFO] Fetching com.python.pydev_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (0B of 95.64kB at 0B/s)
+[INFO] Fetching com.python.pydev_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (34.82kB of 95.64kB at 32.02kB/s)
+[INFO] Fetching com.python.pydev_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (71.83kB of 95.64kB at 29.99kB/s)
+[INFO] Fetching org.python.pydev.shared_core_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (0B of 475.3kB at 0B/s)
+[INFO] Fetching org.python.pydev.shared_core_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (40.36kB of 475.3kB at 36.36kB/s)
+[INFO] Fetching org.python.pydev.shared_core_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (77.21kB of 475.3kB at 32.31kB/s)
+[INFO] Fetching org.python.pydev.shared_core_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (130.15kB of 475.3kB at 37.39kB/s)
+[INFO] Fetching org.python.pydev.shared_core_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (179.1kB of 475.3kB at 38.88kB/s)
+[INFO] Fetching org.python.pydev.shared_core_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (233.83kB of 475.3kB at 38.93kB/s)
+[INFO] Fetching org.python.pydev.shared_core_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (300.96kB of 475.3kB at 46.71kB/s)
+[INFO] Fetching org.python.pydev.shared_core_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (374.16kB of 475.3kB at 48.48kB/s)
+[INFO] Fetching org.python.pydev.shared_core_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (455.21kB of 475.3kB at 53.52kB/s)
+[INFO] Fetching com.python.pydev.analysis_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (0B of 303.74kB at 0B/s)
+[INFO] Fetching com.python.pydev.analysis_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (39.23kB of 303.74kB at 37.83kB/s)
+[INFO] Fetching com.python.pydev.analysis_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (83.02kB of 303.74kB at 34.52kB/s)
+[INFO] Fetching com.python.pydev.analysis_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (140.35kB of 303.74kB at 36.53kB/s)
+[INFO] Fetching com.python.pydev.analysis_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (190.7kB of 303.74kB at 42.43kB/s)
+[INFO] Fetching com.python.pydev.analysis_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (262.02kB of 303.74kB at 44.85kB/s)
+[INFO] Fetching com.python.pydev.fastparser_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (0B of 7.21kB at 0B/s)
+[INFO] Fetching com.python.pydev.refactoring_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (0B of 238.91kB at 0B/s)
+[INFO] Fetching com.python.pydev.refactoring_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (42.03kB of 238.91kB at 39.23kB/s)
+[INFO] Fetching com.python.pydev.refactoring_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (89.57kB of 238.91kB at 37.09kB/s)
+[INFO] Fetching com.python.pydev.refactoring_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (151.1kB of 238.91kB at 44.31kB/s)
+[INFO] Fetching com.python.pydev.refactoring_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (216.83kB of 238.91kB at 45.47kB/s)
+[INFO] Fetching com.python.pydev.codecompletion_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (0B of 31.25kB at 0B/s)
+[INFO] Fetching com.python.pydev.debug_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (0B of 45.61kB at 0B/s)
+[INFO] Fetching com.python.pydev.debug_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (40.55kB of 45.61kB at 39.16kB/s)
+[INFO] Fetching org.python.pydev.refactoring_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (0B of 312.58kB at 0B/s)
+[INFO] Fetching org.python.pydev.refactoring_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (40.55kB of 312.58kB at 39.16kB/s)
+[INFO] Fetching org.python.pydev.refactoring_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (91.63kB of 312.58kB at 37.76kB/s)
+[INFO] Fetching org.python.pydev.refactoring_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (155.96kB of 312.58kB at 45.46kB/s)
+[INFO] Fetching org.python.pydev.refactoring_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (230.23kB of 312.58kB at 47.38kB/s)
+[INFO] Fetching org.python.pydev.refactoring_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (287.76kB of 312.58kB at 47.76kB/s)
+[INFO] Fetching org.apache.xerces_2.9.0.v201101211617.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 436.95kB at 0B/s)
+[INFO] Fetching org.apache.xerces_2.9.0.v201101211617.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (157.85kB of 436.95kB at 153.85kB/s)
+[INFO] Fetching org.apache.xml.resolver_1.2.0.v201005080400.jar.pack.gz from http://download.eclipse.org/releases/mars/201506241002/plugins/ (0B of 43.84kB at 0B/s)
+[INFO] Fetching org.apache.xml.resolver_1.2.0.v201005080400.jar.pack.gz from http://download.eclipse.org/releases/mars/201506241002/plugins/ (23.49kB of 43.84kB at 19.49kB/s)
+[INFO] Fetching org.apache.xml.resolver_1.2.0.v201005080400.jar.pack.gz from http://download.eclipse.org/releases/mars/201506241002/plugins/ (43.84kB of 43.84kB at 18.23kB/s)
+[INFO] Fetching org.apache.xml.serializer_2.7.1.v201005080400.jar.pack.gz from http://ftp.daumkakao.com/eclipse/releases/mars/201506241002/plugins/ (0B of 117.18kB at 0B/s)
+[INFO] Fetching org.eclipse.core.filesystem.java7_1.0.100.v20150423-0754.jar.pack.gz from http://ftp.daumkakao.com/eclipse/releases/mars/201506241002/plugins/ (0B of 9.01kB at 0B/s)
+[INFO] Fetching org.eclipse.core.filesystem.linux.x86_1.4.200.v20140124-1940.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 8.87kB at 0B/s)
+[INFO] Fetching org.eclipse.core.runtime.compatibility.registry_3.6.0.v20150318-1505.jar.pack.gz from http://download.eclipse.org/releases/mars/201506241002/plugins/ (0B of 16.38kB at 0B/s)
+[INFO] Fetching 201510021000&countryCode=us&timeZone=8&format=xml from http://www.eclipse.org/downloads/download.php?format=xml&file=/releases/mars/ (0B at 0B/s)
+[INFO] Fetching org.eclipse.jetty.continuation_9.2.13.v20150730.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (0B of 16.78kB at 0B/s)
+[INFO] Fetching org.eclipse.ant.core_3.4.0.v20150428-1928.jar.pack.gz from http://ftp.daumkakao.com/eclipse/releases/mars/201506241002/plugins/ (0B of 70.71kB at 0B/s)
+[INFO] Fetching org.eclipse.jdt.launching_3.8.0.v20150527-0946.jar.pack.gz from http://download.eclipse.org/releases/mars/201506241002/plugins/ (0B of 121.41kB at 0B/s)
+[INFO] Fetching org.eclipse.jdt.launching_3.8.0.v20150527-0946.jar.pack.gz from http://download.eclipse.org/releases/mars/201506241002/plugins/ (9.61kB of 121.41kB at 8.2kB/s)
+[INFO] Fetching org.eclipse.jdt.launching_3.8.0.v20150527-0946.jar.pack.gz from http://download.eclipse.org/releases/mars/201506241002/plugins/ (22.34kB of 121.41kB at 6.97kB/s)
+[INFO] Fetching org.eclipse.jdt.launching_3.8.0.v20150527-0946.jar.pack.gz from http://download.eclipse.org/releases/mars/201506241002/plugins/ (23.75kB of 121.41kB at 5.58kB/s)
+[INFO] Fetching org.eclipse.jdt.launching_3.8.0.v20150527-0946.jar.pack.gz from http://download.eclipse.org/releases/mars/201506241002/plugins/ (40.72kB of 121.41kB at 7.07kB/s)
+[INFO] Fetching org.eclipse.jdt.launching_3.8.0.v20150527-0946.jar.pack.gz from http://download.eclipse.org/releases/mars/201506241002/plugins/ (60.52kB of 121.41kB at 7.78kB/s)
+[INFO] Fetching org.eclipse.jdt.launching_3.8.0.v20150527-0946.jar.pack.gz from http://download.eclipse.org/releases/mars/201506241002/plugins/ (97.04kB of 121.41kB at 11.88kB/s)
+[INFO] Fetching org.eclipse.jdt.launching_3.8.0.v20150527-0946.jar.pack.gz from http://download.eclipse.org/releases/mars/201506241002/plugins/ (121.41kB of 121.41kB at 19.8kB/s)
+[INFO] Fetching org.apache.ant_1.9.6.v201510161327.jar.pack.gz from http://artfiles.org/eclipse.org//releases/mars/201602261000/plugins/ (0B of 2.19MB at 0B/s)
+[INFO] Fetching org.apache.ant_1.9.6.v201510161327.jar.pack.gz from http://artfiles.org/eclipse.org//releases/mars/201602261000/plugins/ (20.68kB of 2.19MB at 16.68kB/s)
+[INFO] Fetching org.apache.ant_1.9.6.v201510161327.jar.pack.gz from http://artfiles.org/eclipse.org//releases/mars/201602261000/plugins/ (68.76kB of 2.19MB at 32.38kB/s)
+[INFO] Fetching org.apache.ant_1.9.6.v201510161327.jar.pack.gz from http://artfiles.org/eclipse.org//releases/mars/201602261000/plugins/ (333.43kB of 2.19MB at 62.12kB/s)
+[INFO] Fetching org.apache.ant_1.9.6.v201510161327.jar.pack.gz from http://artfiles.org/eclipse.org//releases/mars/201602261000/plugins/ (832.6kB of 2.19MB at 137.45kB/s)
+[INFO] Fetching org.apache.ant_1.9.6.v201510161327.jar.pack.gz from http://artfiles.org/eclipse.org//releases/mars/201602261000/plugins/ (1.5MB of 2.19MB at 240.33kB/s)
+[INFO] Fetching org.apache.ant_1.9.6.v201510161327.jar.pack.gz from http://artfiles.org/eclipse.org//releases/mars/201602261000/plugins/ (2.18MB of 2.19MB at 319.01kB/s)
+[INFO] Fetching org.eclipse.core.externaltools_1.0.300.v20140219-0051.jar.pack.gz from http://ftp.kaist.ac.kr/eclipse/releases/mars/201506241002/plugins/ (0B of 19.27kB at 0B/s)
+[INFO] Fetching org.eclipse.jdt.core_3.11.2.v20160128-0629.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (0B of 5.46MB at 0B/s)
+[INFO] Fetching org.eclipse.jdt.core_3.11.2.v20160128-0629.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (179.3kB of 5.46MB at 169.4kB/s)
+[INFO] Fetching org.eclipse.jdt.core_3.11.2.v20160128-0629.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (859.46kB of 5.46MB at 428.32kB/s)
+[INFO] Fetching org.eclipse.jdt.core_3.11.2.v20160128-0629.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (1.1MB of 5.46MB at 373.69kB/s)
+[INFO] Fetching org.eclipse.jdt.core_3.11.2.v20160128-0629.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (1.11MB of 5.46MB at 284.15kB/s)
+[INFO] Fetching org.eclipse.jdt.core_3.11.2.v20160128-0629.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (2.05MB of 5.46MB at 416.24kB/s)
+[INFO] Fetching org.eclipse.jdt.core_3.11.2.v20160128-0629.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (2.23MB of 5.46MB at 403.57kB/s)
+[INFO] Fetching org.eclipse.jdt.core_3.11.2.v20160128-0629.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (2.92MB of 5.46MB at 378.69kB/s)
+[INFO] Fetching org.eclipse.jdt.core_3.11.2.v20160128-0629.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (3.21MB of 5.46MB at 405.55kB/s)
+[INFO] Fetching org.eclipse.jdt.core_3.11.2.v20160128-0629.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (4.06MB of 5.46MB at 593.62kB/s)
+[INFO] Fetching org.eclipse.jdt.core_3.11.2.v20160128-0629.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (4.41MB of 5.46MB at 444.58kB/s)
+[INFO] Fetching org.eclipse.jdt.core_3.11.2.v20160128-0629.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (4.98MB of 5.46MB at 529.99kB/s)
+[INFO] Fetching org.eclipse.ant.launching_1.1.101.v20160203-1242.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (0B of 98.47kB at 0B/s)
+[INFO] Fetching org.eclipse.ui.externaltools_3.3.0.v20150302-1002.jar.pack.gz from http://ftp.daumkakao.com/eclipse/releases/mars/201506241002/plugins/ (0B of 58.66kB at 0B/s)
+[INFO] Fetching org.eclipse.jdt.ui_3.11.2.v20151123-1510.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (0B of 3.12MB at 0B/s)
+[INFO] Fetching org.eclipse.jdt.ui_3.11.2.v20151123-1510.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (148.19kB of 3.12MB at 138.29kB/s)
+[INFO] Fetching org.eclipse.jdt.ui_3.11.2.v20151123-1510.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (727.96kB of 3.12MB at 363.27kB/s)
+[INFO] Fetching org.eclipse.jdt.ui_3.11.2.v20151123-1510.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (1.31MB of 3.12MB at 432.9kB/s)
+[INFO] Fetching org.eclipse.jdt.ui_3.11.2.v20151123-1510.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (2MB of 3.12MB at 499.75kB/s)
+[INFO] Fetching org.eclipse.jdt.ui_3.11.2.v20151123-1510.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (2.68MB of 3.12MB at 539.68kB/s)
+[INFO] Fetching org.eclipse.jdt.debug.ui_3.7.101.v20160203-1236.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (0B of 1.39MB at 0B/s)
+[INFO] Fetching org.eclipse.jdt.debug.ui_3.7.101.v20160203-1236.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (159.26kB of 1.39MB at 153.6kB/s)
+[INFO] Fetching org.eclipse.jdt.debug.ui_3.7.101.v20160203-1236.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (817.04kB of 1.39MB at 406.4kB/s)
+[INFO] Fetching org.eclipse.jdt.debug.ui_3.7.101.v20160203-1236.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (1.15MB of 1.39MB at 390.66kB/s)
+[INFO] Fetching org.eclipse.jdt.debug.ui_3.7.101.v20160203-1236.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (1.18MB of 1.39MB at 295.11kB/s)
+[INFO] Fetching org.eclipse.jdt.debug.ui_3.7.101.v20160203-1236.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (1.22MB of 1.39MB at 241.75kB/s)
+[INFO] Fetching org.eclipse.jdt.debug.ui_3.7.101.v20160203-1236.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (1.37MB of 1.39MB at 224.6kB/s)
+[INFO] Fetching org.eclipse.jdt.junit_3.8.0.v20150428-1340.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 149.72kB at 0B/s)
+[INFO] Fetching org.eclipse.ant.ui_3.6.101.v20160203-1242.jar.pack.gz from http://artfiles.org/eclipse.org//releases/mars/201602261000/plugins/ (0B of 426.84kB at 0B/s)
+[INFO] Fetching org.eclipse.ant.ui_3.6.101.v20160203-1242.jar.pack.gz from http://artfiles.org/eclipse.org//releases/mars/201602261000/plugins/ (24.93kB of 426.84kB at 20.93kB/s)
+[INFO] Fetching org.eclipse.ant.ui_3.6.101.v20160203-1242.jar.pack.gz from http://artfiles.org/eclipse.org//releases/mars/201602261000/plugins/ (97.04kB of 426.84kB at 46.52kB/s)
+[INFO] Fetching mars&format=xml&countryCode=us&timeZone=8&format=xml from http://www.eclipse.org/downloads/download.php?file=/technology/epp/packages/ (0B at 0B/s)
+[INFO] Fetching org.eclipse.equinox.launcher.gtk.linux.x86_1.1.300.v20150602-1417.jar.pack.gz from http://download.eclipse.org/technology/epp/packages/mars/plugins/ (0B of 75.48kB at 0B/s)
+[INFO] Fetching org.eclipse.equinox.launcher.gtk.linux.x86_1.1.300.v20150602-1417.jar.pack.gz from http://download.eclipse.org/technology/epp/packages/mars/plugins/ (11.03kB of 75.48kB at 9.61kB/s)
+[INFO] Fetching org.eclipse.equinox.launcher.gtk.linux.x86_1.1.300.v20150602-1417.jar.pack.gz from http://download.eclipse.org/technology/epp/packages/mars/plugins/ (12.44kB of 75.48kB at 5.51kB/s)
+[INFO] Fetching org.eclipse.equinox.launcher.gtk.linux.x86_1.1.300.v20150602-1417.jar.pack.gz from http://download.eclipse.org/technology/epp/packages/mars/plugins/ (25.17kB of 75.48kB at 4.15kB/s)
+[INFO] Fetching org.eclipse.equinox.launcher.gtk.linux.x86_1.1.300.v20150602-1417.jar.pack.gz from http://download.eclipse.org/technology/epp/packages/mars/plugins/ (47.55kB of 75.48kB at 7kB/s)
+[INFO] Fetching org.eclipse.equinox.launcher.gtk.linux.x86_1.1.300.v20150602-1417.jar.pack.gz from http://download.eclipse.org/technology/epp/packages/mars/plugins/ (70.18kB of 75.48kB at 11.31kB/s)
+[INFO] Fetching org.eclipse.swt.gtk.linux.x86_3.104.2.v20160212-1350.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (0B of 1.08MB at 0B/s)
+[INFO] Fetching org.eclipse.swt.gtk.linux.x86_3.104.2.v20160212-1350.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (179.3kB of 1.08MB at 176.47kB/s)
+[INFO] Fetching org.eclipse.swt.gtk.linux.x86_3.104.2.v20160212-1350.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (858.05kB of 1.08MB at 427.61kB/s)
+[INFO] Fetching org.eclipse.egit.core_4.1.1.201511131810-r.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (0B of 140.57kB at 0B/s)
+[INFO] Fetching org.eclipse.egit.doc_4.1.1.201511131810-r.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (0B of 3.85MB at 0B/s)
+[INFO] Fetching org.eclipse.egit.doc_4.1.1.201511131810-r.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (165.16kB of 3.85MB at 162.33kB/s)
+[INFO] Fetching org.eclipse.egit.doc_4.1.1.201511131810-r.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (824.12kB of 3.85MB at 410.64kB/s)
+[INFO] Fetching org.eclipse.egit.doc_4.1.1.201511131810-r.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (1.15MB of 3.85MB at 390.19kB/s)
+[INFO] Fetching org.eclipse.egit.doc_4.1.1.201511131810-r.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (2.09MB of 3.85MB at 531.97kB/s)
+[INFO] Fetching org.eclipse.egit.doc_4.1.1.201511131810-r.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (2.19MB of 3.85MB at 438.3kB/s)
+[INFO] Fetching org.eclipse.egit.doc_4.1.1.201511131810-r.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (2.59MB of 3.85MB at 458.72kB/s)
+[INFO] Fetching org.eclipse.egit.doc_4.1.1.201511131810-r.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (2.99MB of 3.85MB at 447.13kB/s)
+[INFO] Fetching org.eclipse.egit.doc_4.1.1.201511131810-r.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (3.76MB of 3.85MB at 501.99kB/s)
+[INFO] Fetching org.eclipse.jsch.ui_1.2.0.v20141202-1415.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 32.79kB at 0B/s)
+[INFO] Fetching org.eclipse.jsch.core_1.2.0.v20141202-1415.jar.pack.gz from http://ftp.daumkakao.com/eclipse/releases/mars/201506241002/plugins/ (0B of 18.92kB at 0B/s)
+[INFO] Fetching org.eclipse.egit.ui_4.1.1.201511131810-r.jar.pack.gz from http://artfiles.org/eclipse.org//releases/mars/201602261000/plugins/ (0B of 786.27kB at 0B/s)
+[INFO] Fetching org.eclipse.egit.ui_4.1.1.201511131810-r.jar.pack.gz from http://artfiles.org/eclipse.org//releases/mars/201602261000/plugins/ (20.68kB of 786.27kB at 16.68kB/s)
+[INFO] Fetching org.eclipse.egit.ui_4.1.1.201511131810-r.jar.pack.gz from http://artfiles.org/eclipse.org//releases/mars/201602261000/plugins/ (53.21kB of 786.27kB at 24.6kB/s)
+[INFO] Fetching org.eclipse.egit.ui_4.1.1.201511131810-r.jar.pack.gz from http://artfiles.org/eclipse.org//releases/mars/201602261000/plugins/ (211.58kB of 786.27kB at 69.19kB/s)
+[INFO] Fetching org.eclipse.egit_4.1.1.201511131810-r.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (0B of 9.57kB at 0B/s)
+[INFO] Fetching org.eclipse.egit_4.1.1.201511131810-r.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/ (0B of 17.76kB at 0B/s)
+[INFO] Fetching org.eclipse.emf.common.ui_2.10.1.v20160208-0841.jar.pack.gz from http://ftp.kaist.ac.kr/eclipse/releases/mars/201602261000/plugins/ (0B of 56.35kB at 0B/s)
+[INFO] Fetching org.eclipse.emf.edit_2.11.1.v20160208-0841.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (0B of 88.73kB at 0B/s)
+[INFO] Fetching org.eclipse.emf.ecore.edit_2.9.0.v20160208-0841.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (0B of 41.56kB at 0B/s)
+[INFO] Fetching org.eclipse.emf.edit.ui_2.11.1.v20160208-0841.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (0B of 231.86kB at 0B/s)
+[INFO] Fetching org.eclipse.emf.edit.ui_2.11.1.v20160208-0841.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (170.81kB of 231.86kB at 165.16kB/s)
+[WARNING] Some attempts to read artifact osgi.bundle,org.eclipse.emf.edit.ui,2.11.1.v20160208-0841 failed:
+[WARNING]    An error occurred while transferring artifact packed: osgi.bundle,org.eclipse.emf.edit.ui,2.11.1.v20160208-0841 from repository http://download.eclipse.org/releases/mars/201602261000:
+[WARNING]       Retry another mirror:
+[WARNING]          Unable to read repository at http://ftp.yzu.edu.tw/eclipse/releases/mars/201602261000/plugins/org.eclipse.emf.edit.ui_2.11.1.v20160208-0841.jar.pack.gz.
+[INFO] Fetching org.eclipse.equinox.executable_root.gtk.linux.x86_3.6.200.v20150602-1417 from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/binary/ (0B of 29.11kB at 0B/s)
+[INFO] Fetching org.eclipse.jdt_3.11.2.v20160212-1500.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (0B of 34.21kB at 0B/s)
+[INFO] Fetching org.eclipse.jdt.apt.core_3.4.0.v20150518-1201.jar.pack.gz from http://ftp.daumkakao.com/eclipse/releases/mars/201506241002/plugins/ (0B of 124.97kB at 0B/s)
+[INFO] Fetching org.eclipse.jdt.apt.pluggable.core_1.1.0.v20150423-0947.jar.pack.gz from http://ftp.daumkakao.com/eclipse/releases/mars/201506241002/plugins/ (0B of 15.25kB at 0B/s)
+[INFO] Fetching org.eclipse.jdt.compiler.tool_1.1.0.v20150513-2007.jar.pack.gz from http://ftp.daumkakao.com/eclipse/releases/mars/201506241002/plugins/ (0B of 31.24kB at 0B/s)
+[INFO] Fetching org.eclipse.jdt.compiler.apt_1.2.0.v20150514-0146.jar.pack.gz from http://ftp.daumkakao.com/eclipse/releases/mars/201506241002/plugins/ (0B of 64.92kB at 0B/s)
+[INFO] Fetching org.eclipse.jdt.apt.ui_3.4.0.v20150423-0947.jar.pack.gz from http://ftp.daumkakao.com/eclipse/releases/mars/201506241002/plugins/ (0B of 30.3kB at 0B/s)
+[INFO] Fetching org.eclipse.jdt.annotation_1.1.100.v20140704-0625.jar.pack.gz from http://ftp.daumkakao.com/eclipse/releases/mars/201506241002/plugins/ (0B of 8.61kB at 0B/s)
+[INFO] Fetching org.eclipse.jdt.core.manipulation_1.5.100.v20141002-1241.jar.pack.gz from http://ftp.daumkakao.com/eclipse/releases/mars/201506241002/plugins/ (0B of 29.46kB at 0B/s)
+[INFO] Fetching org.eclipse.jdt.debug_3.9.1.v20160128-1343.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (0B of 894.47kB at 0B/s)
+[INFO] Fetching org.eclipse.jdt.debug_3.9.1.v20160128-1343.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (184.96kB of 894.47kB at 177.89kB/s)
+[INFO] Fetching org.eclipse.jdt.debug_3.9.1.v20160128-1343.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (880.68kB of 894.47kB at 438.93kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (0B of 6.99MB at 0B/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (39.31kB of 6.99MB at 37.89kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (104.11kB of 6.99MB at 50.06kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (146.78kB of 6.99MB at 41.85kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (179.06kB of 6.99MB at 39.52kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (224.31kB of 6.99MB at 36.48kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (265.56kB of 6.99MB at 32.81kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (304.91kB of 6.99MB at 32.52kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (348.99kB of 6.99MB at 32.24kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (398.24kB of 6.99MB at 34.79kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (442.31kB of 6.99MB at 32.81kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (464.94kB of 6.99MB at 32.81kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (481.91kB of 6.99MB at 26.87kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (491.56kB of 6.99MB at 18.67kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (508.78kB of 6.99MB at 11.03kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (524.33kB of 6.99MB at 11.03kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (531.4kB of 6.99MB at 9.33kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (542.71kB of 6.99MB at 7.92kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (559.44kB of 6.99MB at 8.48kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (579.48kB of 6.99MB at 8.48kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (610.59kB of 6.99MB at 14.99kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (633.21kB of 6.99MB at 17.25kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (647.11kB of 6.99MB at 18.1kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (658.67kB of 6.99MB at 13.01kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (677.05kB of 6.99MB at 13.29kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (682.46kB of 6.99MB at 10.18kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (696.85kB of 6.99MB at 9.33kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (720.64kB of 6.99MB at 11.88kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (733.61kB of 6.99MB at 10.18kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (761.65kB of 6.99MB at 13.01kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (787.35kB of 6.99MB at 16.97kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (804.31kB of 6.99MB at 17.25kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (819.63kB of 6.99MB at 17.82kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (843.67kB of 6.99MB at 17.82kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (877.6kB of 6.99MB at 16.4kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (893.16kB of 6.99MB at 17.82kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (915.78kB of 6.99MB at 19.23kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (949.96kB of 6.99MB at 20.64kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (993.8kB of 6.99MB at 23.19kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1,010.77kB of 6.99MB at 22.06kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.02MB of 6.99MB at 23.47kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.04MB of 6.99MB at 19.23kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.05MB of 6.99MB at 14.14kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.06MB of 6.99MB at 14.42kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.07MB of 6.99MB at 7.64kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.08MB of 6.99MB at 7.07kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.09MB of 6.99MB at 8.2kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.11MB of 6.99MB at 8.2kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.13MB of 6.99MB at 9.62kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.15MB of 6.99MB at 15.27kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.17MB of 6.99MB at 14.14kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.19MB of 6.99MB at 17.82kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.22MB of 6.99MB at 18.95kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.25MB of 6.99MB at 20.08kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.31MB of 6.99MB at 29.41kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.38MB of 6.99MB at 35.63kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.42MB of 6.99MB at 40.16kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.44MB of 6.99MB at 27.43kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.46MB of 6.99MB at 18.38kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.49MB of 6.99MB at 18.95kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.52MB of 6.99MB at 16.69kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.55MB of 6.99MB at 21.49kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.58MB of 6.99MB at 26.02kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.64MB of 6.99MB at 31.96kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.66MB of 6.99MB at 29.41kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.67MB of 6.99MB at 26.3kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.69MB of 6.99MB at 21.78kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.72MB of 6.99MB at 16.69kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.76MB of 6.99MB at 20.36kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.79MB of 6.99MB at 24.32kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.82MB of 6.99MB at 26.3kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.83MB of 6.99MB at 26.02kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.84MB of 6.99MB at 18.67kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.85MB of 6.99MB at 12.73kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.86MB of 6.99MB at 8.2kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.87MB of 6.99MB at 7.07kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.89MB of 6.99MB at 9.33kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.92MB of 6.99MB at 11.88kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (1.97MB of 6.99MB at 19.23kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2MB of 6.99MB at 26.58kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.04MB of 6.99MB at 28.28kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.04MB of 6.99MB at 18.67kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.06MB of 6.99MB at 14.71kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.1MB of 6.99MB at 17.53kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.1MB of 6.99MB at 15.55kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.12MB of 6.99MB at 16.97kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.13MB of 6.99MB at 14.71kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.15MB of 6.99MB at 9.9kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.16MB of 6.99MB at 8.48kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.18MB of 6.99MB at 10.75kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.22MB of 6.99MB at 14.42kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.28MB of 6.99MB at 18.1kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.33MB of 6.99MB at 36.2kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.36MB of 6.99MB at 35.63kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.38MB of 6.99MB at 35.07kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.4MB of 6.99MB at 31.11kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.42MB of 6.99MB at 19.23kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.45MB of 6.99MB at 19.23kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.46MB of 6.99MB at 16.69kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.47MB of 6.99MB at 14.14kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.49MB of 6.99MB at 8.77kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.51MB of 6.99MB at 9.33kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.53MB of 6.99MB at 13.01kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.55MB of 6.99MB at 13.29kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.58MB of 6.99MB at 17.82kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.62MB of 6.99MB at 23.19kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.62MB of 6.99MB at 19.8kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.63MB of 6.99MB at 14.14kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.66MB of 6.99MB at 14.14kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.7MB of 6.99MB at 13.57kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.73MB of 6.99MB at 19.8kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.74MB of 6.99MB at 23.19kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.76MB of 6.99MB at 18.67kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.76MB of 6.99MB at 15.55kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.78MB of 6.99MB at 8.77kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.79MB of 6.99MB at 8.48kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.81MB of 6.99MB at 9.33kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.82MB of 6.99MB at 11.59kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.83MB of 6.99MB at 11.31kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.85MB of 6.99MB at 14.14kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.89MB of 6.99MB at 16.4kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.9MB of 6.99MB at 14.71kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.91MB of 6.99MB at 13.86kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.94MB of 6.99MB at 14.42kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (2.97MB of 6.99MB at 16.12kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (3.04MB of 6.99MB at 28.56kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (3.13MB of 6.99MB at 37.9kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (3.17MB of 6.99MB at 43.27kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (3.19MB of 6.99MB at 48.08kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (3.26MB of 6.99MB at 44.97kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (3.34MB of 6.99MB at 50.34kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (3.44MB of 6.99MB at 56.56kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (3.55MB of 6.99MB at 75.51kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (3.72MB of 6.99MB at 95.31kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (3.89MB of 6.99MB at 114.54kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (3.99MB of 6.99MB at 122.74kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (4.12MB of 6.99MB at 125.29kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (4.25MB of 6.99MB at 119.91kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (4.45MB of 6.99MB at 130.66kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (4.74MB of 6.99MB at 152.72kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (5.02MB of 6.99MB at 188.07kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (5.28MB of 6.99MB at 218.9kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (5.48MB of 6.99MB at 237.84kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (5.69MB of 6.99MB at 232.19kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (5.86MB of 6.99MB at 223.14kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (6.01MB of 6.99MB at 203.06kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (6.22MB of 6.99MB at 184.11kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (6.41MB of 6.99MB at 176.47kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (6.63MB of 6.99MB at 182.13kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (6.78MB of 6.99MB at 178.74kB/s)
+[INFO] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://download.eclipse.org/releases/mars/201510021000/plugins/ (6.94MB of 6.99MB at 171.1kB/s)
+[INFO] Fetching org.eclipse.jdt.annotation_2.0.100.v20150311-1658.jar.pack.gz from http://mirror.bit.edu.cn/eclipse/releases/mars/201506241002/plugins/ (0B of 10.25kB at 0B/s)
+[INFO] Fetching org.eclipse.jdt.junit.core_3.7.400.v20150423-0747.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 53.65kB at 0B/s)
+[INFO] Fetching org.eclipse.jdt.junit.runtime_3.4.500.v20140527-1138.jar.pack.gz from http://ftp.daumkakao.com/eclipse/releases/mars/201506241002/plugins/ (0B of 22.1kB at 0B/s)
+[INFO] Fetching org.eclipse.jdt.junit4.runtime_1.1.500.v20150423-0747.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 12.04kB at 0B/s)
+[INFO] Fetching org.eclipse.jdt_3.11.2.v20160212-1500.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/ (0B of 18.17kB at 0B/s)
+[INFO] Fetching org.eclipse.jem.util_2.1.200.v201404021757.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 45.03kB at 0B/s)
+[INFO] Fetching org.eclipse.update.configurator_3.3.300.v20140518-1928.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 43.09kB at 0B/s)
+[INFO] Fetching org.eclipse.rcp_4.5.2.v20160212-1500.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (0B of 9.43kB at 0B/s)
+[INFO] Fetching org.eclipse.rcp_4.5.2.v20160212-1500.jar from http://artfiles.org/eclipse.org//releases/mars/201602261000/features/ (0B of 17.83kB at 0B/s)
+[INFO] Fetching org.eclipse.rcp_4.5.2.v20160212-1500.jar from http://artfiles.org/eclipse.org//releases/mars/201602261000/features/ (17.83kB of 17.83kB at 16.68kB/s)
+[INFO] Fetching org.eclipse.rcp_root_4.5.2.v20160212-1500 from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/binary/ (0B of 25.61kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.common.emf_1.2.400.v201505132009.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 73.27kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.common.emfworkbench.integration_1.2.101.v201107081800.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 50.43kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.common.frameworks.ui_1.2.400.v201504292002.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 52.26kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.common.modulecore_1.2.401.v201408132036.jar.pack.gz from http://ftp.daumkakao.com/eclipse/releases/mars/201506241002/plugins/ (0B of 116.96kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.common.uriresolver_1.2.200.v201505132009.jar.pack.gz from http://ftp.daumkakao.com/eclipse/releases/mars/201506241002/plugins/ (0B of 23.7kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.common.modulecore.ui_1.0.300.v201505072128.jar.pack.gz from http://ftp.daumkakao.com/eclipse/releases/mars/201506241002/plugins/ (0B of 48.77kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.server.core_1.8.0.v201601132216.jar.pack.gz from http://ftp.kaist.ac.kr/eclipse/releases/mars/201602261000/plugins/ (0B of 118.54kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.common.snippets_1.2.200.v201208080420.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 83.91kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.common.ui_1.1.500.v200911182011.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 52.75kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.common_core.feature_3.7.1.v201508262220.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201510021000/features/ (0B of 32.66kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.common.infopop_1.0.300.v201309101952.jar.pack.gz from http://mirror.bit.edu.cn/eclipse/releases/mars/201506241002/plugins/ (0B of 7.99kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.validation.ui_1.2.500.v201310231452.jar.pack.gz from http://mirror.bit.edu.cn/eclipse/releases/mars/201506241002/plugins/ (0B of 43.57kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.validation.infopop_1.0.300.v201309101952.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 8.59kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.internet.cache_1.0.701.v201510130022.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (0B of 21.58kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.common_ui.feature_3.7.2.v201510130022.jar from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/mars/201602261000/features/ (0B of 32.7kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.dtd.core_1.1.700.v201211012112.jar.pack.gz from http://ftp.daumkakao.com/eclipse/releases/mars/201506241002/plugins/ (0B of 155.82kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.sse.core_1.1.901.v201510130005.jar.pack.gz from http://ftp.kaist.ac.kr/eclipse/releases/mars/201602261000/plugins/ (0B of 147.52kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.xml.core_1.1.902.v201501211904.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 229.89kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.xml.core_1.1.902.v201501211904.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (166.34kB of 229.89kB at 162.34kB/s)
+[INFO] Fetching org.eclipse.wst.dtd.ui_1.0.801.v201308100602.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 82.71kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.sse.ui_1.3.401.v201510130005.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (0B of 296.64kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.sse.ui_1.3.401.v201510130005.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (159.27kB of 296.64kB at 155.27kB/s)
+[INFO] Fetching org.eclipse.wst.xml.ui_1.1.501.v201501212057.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 304.21kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.xml.ui_1.1.501.v201501212057.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (143.95kB of 304.21kB at 142.54kB/s)
+[INFO] Fetching org.eclipse.wst.server.discovery_1.2.0.v201601132216.jar.pack.gz from http://artfiles.org/eclipse.org//releases/mars/201602261000/plugins/ (0B of 41.39kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.server.discovery_1.2.0.v201601132216.jar.pack.gz from http://artfiles.org/eclipse.org//releases/mars/201602261000/plugins/ (20.69kB of 41.39kB at 16.69kB/s)
+[INFO] Fetching org.eclipse.wst.standard.schemas_1.0.700.v201304171715.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201506241002/plugins/ (0B of 144.99kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.xsd.core_1.1.900.v201401141857.jar.pack.gz from http://mirror.bit.edu.cn/eclipse/releases/mars/201506241002/plugins/ (0B of 26.51kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.xml_core.feature_3.7.2.v201510130005.jar from http://ftp.kaist.ac.kr/eclipse/releases/mars/201602261000/features/ (0B of 32.73kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.dtd.ui.infopop_1.0.400.v201309112106.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 8.33kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.sse.ui.infopop_1.0.300.v201309112106.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 8.28kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.xml.ui.infopop_1.0.400.v201309112106.jar.pack.gz from http://download.eclipse.org/releases/mars/201506241002/plugins/ (0B of 13.21kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.xsd.ui_1.2.510.v201511240257.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (0B of 375.59kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.xsd.ui_1.2.510.v201511240257.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (192.03kB of 375.59kB at 189.2kB/s)
+[INFO] Fetching org.eclipse.wst.xml_ui.feature_3.7.2.v201511240257.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/ (0B of 32.77kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.dtdeditor.doc.user_1.0.700.v201208081537.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 24.59kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.sse.doc.user_1.1.100.v201208081537.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 89.19kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.xmleditor.doc.user_1.0.700.v201208081537.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 87.89kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.xsdeditor.doc.user_1.0.800.v201208081537.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 75.51kB at 0B/s)
+[INFO] Fetching org.eclipse.wst.xml_userdoc.feature_3.6.0.v201405062147.jar from http://ftp.daumkakao.com/eclipse/releases/mars/201506241002/features/ (0B of 31.63kB at 0B/s)
+[INFO] Fetching org.eclipse.xsd_2.11.0.v20160208-0841.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (0B of 547.75kB at 0B/s)
+[INFO] Fetching org.eclipse.xsd_2.11.0.v20160208-0841.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (157.85kB of 547.75kB at 153.85kB/s)
+[INFO] Fetching org.eclipse.xsd_2.11.0.v20160208-0841.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (522.92kB of 547.75kB at 260.75kB/s)
+[INFO] Fetching org.eclipse.xsd.edit_2.8.0.v20160208-0841.jar.pack.gz from http://ftp.kaist.ac.kr/eclipse/releases/mars/201602261000/plugins/ (0B of 59kB at 0B/s)
+[INFO] Fetching org.python.pydev.customizations_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (0B of 106.99kB at 0B/s)
+[INFO] Fetching org.python.pydev.customizations_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (40.55kB of 106.99kB at 39.16kB/s)
+[INFO] Fetching org.python.pydev.customizations_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (86.7kB of 106.99kB at 35.66kB/s)
+[INFO] Fetching org.python.pydev.django_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (0B of 67kB at 0B/s)
+[INFO] Fetching org.python.pydev.django_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (37.56kB of 67kB at 33.56kB/s)
+[INFO] Fetching org.python.pydev.help_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/plugins/ (0B of 7.66kB at 0B/s)
+[INFO] Fetching org.python.pydev.feature_4.1.0.201505270003.jar from http://update-production-pydev.s3.amazonaws.com/pydev/updates/features/ (0B of 10.77kB at 0B/s)
+[INFO] Fetching org.eclipse.core.filesystem.linux.x86_64_1.2.200.v20140124-1940.jar.pack.gz from http://mirror.bit.edu.cn/eclipse/releases/mars/201506241002/plugins/ (0B of 9.15kB at 0B/s)
+[INFO] Fetching org.eclipse.core.filesystem.win32.x86_1.4.0.v20140124-1940.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 25.87kB at 0B/s)
+[INFO] Fetching org.eclipse.core.resources.win32.x86_3.5.100.v20140124-1940.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201506241002/plugins/ (0B of 16.61kB at 0B/s)
+[INFO] Fetching org.eclipse.equinox.security.win32.x86_1.0.300.v20130327-1442.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201506241002/plugins/ (0B of 18.49kB at 0B/s)
+[INFO] Fetching org.eclipse.equinox.launcher.win32.win32.x86_1.1.300.v20150602-1417.jar.pack.gz from http://download.eclipse.org/technology/epp/packages/mars/plugins/ (0B of 25.67kB at 0B/s)
+[INFO] Fetching org.eclipse.swt.win32.win32.x86_3.104.2.v20160212-1350.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (0B of 1.12MB at 0B/s)
+[INFO] Fetching org.eclipse.swt.win32.win32.x86_3.104.2.v20160212-1350.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (166.33kB of 1.12MB at 162.33kB/s)
+[INFO] Fetching org.eclipse.swt.win32.win32.x86_3.104.2.v20160212-1350.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/ (845.33kB of 1.12MB at 419.83kB/s)
+[INFO] Fetching org.eclipse.equinox.executable_root.win32.win32.x86_3.6.200.v20150602-1417 from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/binary/ (0B of 30.89kB at 0B/s)
+[INFO] Fetching org.eclipse.core.filesystem.win32.x86_64_1.4.0.v20140124-1940.jar.pack.gz from http://mirror.bit.edu.cn/eclipse/releases/mars/201506241002/plugins/ (0B of 30.19kB at 0B/s)
+[INFO] Fetching org.eclipse.core.filesystem.macosx_1.3.0.v20140124-1940.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 12.4kB at 0B/s)
+[INFO] Fetching org.eclipse.jdt.launching.macosx_3.3.0.v20150313-0517.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 10.59kB at 0B/s)
+[INFO] Fetching org.eclipse.jdt.launching.ui.macosx_1.1.0.v20150313-0517.jar.pack.gz from http://ftp.daumkakao.com/eclipse/releases/mars/201506241002/plugins/ (0B of 27.12kB at 0B/s)
+[INFO] Fetching org.eclipse.ui.cocoa_1.1.100.v20150315-1253.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201506241002/plugins/ (0B of 6.38kB at 0B/s)
+[INFO] Resolving class path of MavenProject: org.csstudio:csns-repository:4.3.0-SNAPSHOT @ /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/pom.xml
+[INFO] Computing target platform for MavenProject: org.csstudio.csns.product.feature:org.csstudio.csns.product.feature:4.3.0-SNAPSHOT @ /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-features/org.csstudio.csns.product.feature/pom.xml
+[INFO] Resolving dependencies of MavenProject: org.csstudio.csns.product.feature:org.csstudio.csns.product.feature:4.3.0-SNAPSHOT @ /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-features/org.csstudio.csns.product.feature/pom.xml
+[INFO] Resolving class path of MavenProject: org.csstudio.csns.product.feature:org.csstudio.csns.product.feature:4.3.0-SNAPSHOT @ /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-features/org.csstudio.csns.product.feature/pom.xml
+[INFO] Computing target platform for MavenProject: org.csstudio:org.csstudio.csns.css.product:4.3.0-SNAPSHOT @ /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-plugins/org.csstudio.csns.css.product/pom.xml
+[INFO] Resolving dependencies of MavenProject: org.csstudio:org.csstudio.csns.css.product:4.3.0-SNAPSHOT @ /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-plugins/org.csstudio.csns.css.product/pom.xml
+[INFO] Resolving class path of MavenProject: org.csstudio:org.csstudio.csns.css.product:4.3.0-SNAPSHOT @ /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-plugins/org.csstudio.csns.css.product/pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] csns-css-product
+[INFO] csns-plugins
+[INFO] org.csstudio.csns.css.product
+[INFO] csns-features
+[INFO] org.csstudio.csns.product.feature
+[INFO] csns-repository
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building csns-css-product 4.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ csns-product ---
+[INFO] 
+[INFO] --- tycho-source-plugin:0.23.1:plugin-source (plugin-source) @ csns-product ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building csns-plugins 4.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ csns-plugins ---
+[INFO] 
+[INFO] --- tycho-source-plugin:0.23.1:plugin-source (plugin-source) @ csns-plugins ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.csstudio.csns.css.product 4.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.csstudio.csns.css.product ---
+[INFO] Deleting /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-plugins/org.csstudio.csns.css.product/target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.23.1:build-qualifier (default-build-qualifier) @ org.csstudio.csns.css.product ---
+[WARNING] Working tree is dirty.
+git status csns-plugins/org.csstudio.csns.css.product:
+
+Changes not staged for commit:
+	modified:    csns-plugins/org.csstudio.csns.css.product/META-INF/MANIFEST.MF
+
+Untracked files:
+	csns-plugins/org.csstudio.csns.css.product/plugin.xml.bak
+
+[WARNING] Fallback to default timestamp provider
+[INFO] The project's OSGi version is 4.3.0.201609050934
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.23.1:validate-id (default-validate-id) @ org.csstudio.csns.css.product ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.23.1:validate-version (default-validate-version) @ org.csstudio.csns.css.product ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ org.csstudio.csns.css.product ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-plugins/org.csstudio.csns.css.product/src/main/resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:0.23.1:compile (default-compile) @ org.csstudio.csns.css.product ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ org.csstudio.csns.css.product ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-plugins/org.csstudio.csns.css.product/src/test/resources
+[INFO] 
+[INFO] --- tycho-source-plugin:0.23.1:plugin-source (plugin-source) @ org.csstudio.csns.css.product ---
+[WARNING] bundle localization file /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-plugins/org.csstudio.csns.css.product/plugin.properties not found
+[INFO] Building jar: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-plugins/org.csstudio.csns.css.product/target/org.csstudio.csns.css.product-4.3.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- target-platform-configuration:0.23.1:target-platform (default-target-platform) @ org.csstudio.csns.css.product ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.23.1:package-plugin (default-package-plugin) @ org.csstudio.csns.css.product ---
+[INFO] Building jar: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-plugins/org.csstudio.csns.css.product/target/org.csstudio.csns.css.product-4.3.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.23.1:p2-metadata-default (default-p2-metadata-default) @ org.csstudio.csns.css.product ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building csns-features 4.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ csns-features ---
+[INFO] 
+[INFO] --- tycho-source-plugin:0.23.1:plugin-source (plugin-source) @ csns-features ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.csstudio.csns.product.feature 4.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.csstudio.csns.product.feature ---
+[INFO] Deleting /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-features/org.csstudio.csns.product.feature/target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.23.1:build-qualifier-aggregator (default-build-qualifier-aggregator) @ org.csstudio.csns.product.feature ---
+[WARNING] Working tree is dirty.
+git status csns-features/org.csstudio.csns.product.feature:
+
+Changes not staged for commit:
+	modified:    csns-features/org.csstudio.csns.product.feature/feature.xml
+
+[WARNING] Fallback to default timestamp provider
+[INFO] The project's OSGi version is 4.3.0.201609050934
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.23.1:validate-id (default-validate-id) @ org.csstudio.csns.product.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.23.1:validate-version (default-validate-version) @ org.csstudio.csns.product.feature ---
+[INFO] 
+[INFO] --- tycho-source-plugin:0.23.1:plugin-source (plugin-source) @ org.csstudio.csns.product.feature ---
+[INFO] 
+[INFO] --- target-platform-configuration:0.23.1:target-platform (default-target-platform) @ org.csstudio.csns.product.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.23.1:package-feature (default-package-feature) @ org.csstudio.csns.product.feature ---
+[INFO] Building jar: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-features/org.csstudio.csns.product.feature/target/org.csstudio.csns.product.feature-4.3.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.23.1:p2-metadata-default (default-p2-metadata-default) @ org.csstudio.csns.product.feature ---
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.23.1:feature-p2-metadata (default-feature-p2-metadata) @ org.csstudio.csns.product.feature ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building csns-repository 4.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ csns-repository ---
+[INFO] Deleting /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.23.1:build-qualifier-aggregator (default-build-qualifier-aggregator) @ csns-repository ---
+[WARNING] Working tree is dirty.
+git status csns-repository:
+
+Changes not staged for commit:
+	modified:    csns-repository/AlarmConfigTool.product
+	modified:    csns-repository/ArchiveConfig.product
+	modified:    csns-repository/AlarmServer.product
+	modified:    csns-repository/csns-css.product
+	modified:    csns-repository/Arcvhieengine.product
+	modified:    csns-repository/JMS2RDB.product
+	modified:    csns-repository/Scanserver.product
+
+Untracked files:
+	csns-repository/csns-css2.product
+
+[WARNING] Fallback to default timestamp provider
+[INFO] The project's OSGi version is 4.3.0.201609080034
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean-1) @ csns-repository ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ csns-repository ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/src/main/resources
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (default) @ csns-repository ---
+[INFO] Executing tasks
+
+main:
+     [echo] Copying icons into tycho target directory /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- tycho-source-plugin:0.23.1:plugin-source (plugin-source) @ csns-repository ---
+[INFO] 
+[INFO] --- target-platform-configuration:0.23.1:target-platform (default-target-platform) @ csns-repository ---
+[INFO] 
+[INFO] --- tycho-p2-publisher-plugin:0.23.1:publish-products (default-publish-products) @ csns-repository ---
+[INFO] publishing result: [The bundles specified in the product definition are ignored; verify the value of the 'type' or 'useFeatures' attribute.]
+[INFO] publishing result: [The bundles specified in the product definition are ignored; verify the value of the 'type' or 'useFeatures' attribute.]
+[INFO] 
+[INFO] --- tycho-p2-publisher-plugin:0.23.1:publish-categories (default-publish-categories) @ csns-repository ---
+[INFO] 
+[INFO] --- tycho-p2-publisher-plugin:0.23.1:attach-artifacts (default-attach-artifacts) @ csns-repository ---
+[INFO] 
+[INFO] --- tycho-p2-repository-plugin:0.23.1:assemble-repository (default-assemble-repository) @ csns-repository ---
+[INFO] 
+[INFO] --- tycho-p2-repository-plugin:0.23.1:archive-repository (default-archive-repository) @ csns-repository ---
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/csns-repository-4.3.0-SNAPSHOT.zip
+[INFO] 
+[INFO] --- tycho-p2-director-plugin:0.23.1:materialize-products (materialize-products) @ csns-repository ---
+[INFO] Installing product org.csstudio.csns.product.product for environment linux/gtk/x86 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.product.product/linux/gtk/x86/csns-css-4.3.0
+Installing org.csstudio.csns.product.product 4.3.0.201609080034.
+Operation completed in 5236 ms.
+[INFO] Installing product org.csstudio.csns.product.product for environment linux/gtk/x86_64 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.product.product/linux/gtk/x86_64/csns-css-4.3.0
+Installing org.csstudio.csns.product.product 4.3.0.201609080034.
+Operation completed in 13610 ms.
+[INFO] Installing product org.csstudio.csns.product.product for environment win32/win32/x86 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.product.product/win32/win32/x86/csns-css-4.3.0
+Installing org.csstudio.csns.product.product 4.3.0.201609080034.
+Operation completed in 7382 ms.
+[INFO] Installing product org.csstudio.csns.product.product for environment win32/win32/x86_64 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.product.product/win32/win32/x86_64/csns-css-4.3.0
+Installing org.csstudio.csns.product.product 4.3.0.201609080034.
+Operation completed in 8300 ms.
+[INFO] Installing product org.csstudio.csns.product.product for environment macosx/cocoa/x86_64 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.product.product/macosx/cocoa/x86_64/csns-css-4.3.0
+Installing org.csstudio.csns.product.product 4.3.0.201609080034.
+Operation completed in 6507 ms.
+[INFO] Installing product org.csstudio.csns.scanserver.product for environment linux/gtk/x86 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.scanserver.product/linux/gtk/x86/scanserver-4.3.0
+Installing org.csstudio.csns.scanserver.product 4.3.0.201609080034.
+Operation completed in 1761 ms.
+[INFO] Installing product org.csstudio.csns.scanserver.product for environment linux/gtk/x86_64 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.scanserver.product/linux/gtk/x86_64/scanserver-4.3.0
+Installing org.csstudio.csns.scanserver.product 4.3.0.201609080034.
+Operation completed in 574 ms.
+[INFO] Installing product org.csstudio.csns.scanserver.product for environment win32/win32/x86 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.scanserver.product/win32/win32/x86/scanserver-4.3.0
+Installing org.csstudio.csns.scanserver.product 4.3.0.201609080034.
+Operation completed in 1763 ms.
+[INFO] Installing product org.csstudio.csns.scanserver.product for environment win32/win32/x86_64 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.scanserver.product/win32/win32/x86_64/scanserver-4.3.0
+Installing org.csstudio.csns.scanserver.product 4.3.0.201609080034.
+Operation completed in 2486 ms.
+[INFO] Installing product org.csstudio.csns.scanserver.product for environment macosx/cocoa/x86_64 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.scanserver.product/macosx/cocoa/x86_64/scanserver-4.3.0
+Installing org.csstudio.csns.scanserver.product 4.3.0.201609080034.
+Operation completed in 879 ms.
+[INFO] Installing product org.csstudio.csns.archiveengine.product for environment linux/gtk/x86 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.archiveengine.product/linux/gtk/x86/archiveengine-4.3.0
+Installing org.csstudio.csns.archiveengine.product 4.3.0.201609080034.
+Operation completed in 573 ms.
+[INFO] Installing product org.csstudio.csns.archiveengine.product for environment linux/gtk/x86_64 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.archiveengine.product/linux/gtk/x86_64/archiveengine-4.3.0
+Installing org.csstudio.csns.archiveengine.product 4.3.0.201609080034.
+Operation completed in 462 ms.
+[INFO] Installing product org.csstudio.csns.archiveengine.product for environment win32/win32/x86 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.archiveengine.product/win32/win32/x86/archiveengine-4.3.0
+Installing org.csstudio.csns.archiveengine.product 4.3.0.201609080034.
+Operation completed in 395 ms.
+[INFO] Installing product org.csstudio.csns.archiveengine.product for environment win32/win32/x86_64 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.archiveengine.product/win32/win32/x86_64/archiveengine-4.3.0
+Installing org.csstudio.csns.archiveengine.product 4.3.0.201609080034.
+Operation completed in 1385 ms.
+[INFO] Installing product org.csstudio.csns.archiveengine.product for environment macosx/cocoa/x86_64 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.archiveengine.product/macosx/cocoa/x86_64/archiveengine-4.3.0
+Installing org.csstudio.csns.archiveengine.product 4.3.0.201609080034.
+Operation completed in 493 ms.
+[INFO] Installing product org.csstudio.csns.archiveconfigtool.product for environment linux/gtk/x86 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.archiveconfigtool.product/linux/gtk/x86/archiveconfigtool-4.3.0
+Installing org.csstudio.csns.archiveconfigtool.product 4.3.0.201609080034.
+Operation completed in 360 ms.
+[INFO] Installing product org.csstudio.csns.archiveconfigtool.product for environment linux/gtk/x86_64 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.archiveconfigtool.product/linux/gtk/x86_64/archiveconfigtool-4.3.0
+Installing org.csstudio.csns.archiveconfigtool.product 4.3.0.201609080034.
+Operation completed in 1695 ms.
+[INFO] Installing product org.csstudio.csns.archiveconfigtool.product for environment win32/win32/x86 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.archiveconfigtool.product/win32/win32/x86/archiveconfigtool-4.3.0
+Installing org.csstudio.csns.archiveconfigtool.product 4.3.0.201609080034.
+Operation completed in 411 ms.
+[INFO] Installing product org.csstudio.csns.archiveconfigtool.product for environment win32/win32/x86_64 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.archiveconfigtool.product/win32/win32/x86_64/archiveconfigtool-4.3.0
+Installing org.csstudio.csns.archiveconfigtool.product 4.3.0.201609080034.
+Operation completed in 427 ms.
+[INFO] Installing product org.csstudio.csns.archiveconfigtool.product for environment macosx/cocoa/x86_64 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.archiveconfigtool.product/macosx/cocoa/x86_64/archiveconfigtool-4.3.0
+Installing org.csstudio.csns.archiveconfigtool.product 4.3.0.201609080034.
+Operation completed in 394 ms.
+[INFO] Installing product org.csstudio.csns.alarmserver.product for environment linux/gtk/x86 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.alarmserver.product/linux/gtk/x86/alarmserver-4.3.0
+Installing org.csstudio.csns.alarmserver.product 4.3.0.201609080034.
+Operation completed in 2522 ms.
+[INFO] Installing product org.csstudio.csns.alarmserver.product for environment linux/gtk/x86_64 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.alarmserver.product/linux/gtk/x86_64/alarmserver-4.3.0
+Installing org.csstudio.csns.alarmserver.product 4.3.0.201609080034.
+Operation completed in 462 ms.
+[INFO] Installing product org.csstudio.csns.alarmserver.product for environment win32/win32/x86 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.alarmserver.product/win32/win32/x86/alarmserver-4.3.0
+Installing org.csstudio.csns.alarmserver.product 4.3.0.201609080034.
+Operation completed in 410 ms.
+[INFO] Installing product org.csstudio.csns.alarmserver.product for environment win32/win32/x86_64 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.alarmserver.product/win32/win32/x86_64/alarmserver-4.3.0
+Installing org.csstudio.csns.alarmserver.product 4.3.0.201609080034.
+Operation completed in 813 ms.
+[INFO] Installing product org.csstudio.csns.alarmserver.product for environment macosx/cocoa/x86_64 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.alarmserver.product/macosx/cocoa/x86_64/alarmserver-4.3.0
+Installing org.csstudio.csns.alarmserver.product 4.3.0.201609080034.
+Operation completed in 445 ms.
+[INFO] Installing product org.csstudio.csns.alarmconfigtool.product for environment linux/gtk/x86 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.alarmconfigtool.product/linux/gtk/x86/alarmconfigtool-4.3.0
+Installing org.csstudio.csns.alarmconfigtool.product 4.3.0.201609080034.
+Operation completed in 1725 ms.
+[INFO] Installing product org.csstudio.csns.alarmconfigtool.product for environment linux/gtk/x86_64 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.alarmconfigtool.product/linux/gtk/x86_64/alarmconfigtool-4.3.0
+Installing org.csstudio.csns.alarmconfigtool.product 4.3.0.201609080034.
+Operation completed in 502 ms.
+[INFO] Installing product org.csstudio.csns.alarmconfigtool.product for environment win32/win32/x86 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.alarmconfigtool.product/win32/win32/x86/alarmconfigtool-4.3.0
+Installing org.csstudio.csns.alarmconfigtool.product 4.3.0.201609080034.
+Operation completed in 390 ms.
+[INFO] Installing product org.csstudio.csns.alarmconfigtool.product for environment win32/win32/x86_64 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.alarmconfigtool.product/win32/win32/x86_64/alarmconfigtool-4.3.0
+Installing org.csstudio.csns.alarmconfigtool.product 4.3.0.201609080034.
+Operation completed in 1593 ms.
+[INFO] Installing product org.csstudio.csns.alarmconfigtool.product for environment macosx/cocoa/x86_64 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.alarmconfigtool.product/macosx/cocoa/x86_64/alarmconfigtool-4.3.0
+Installing org.csstudio.csns.alarmconfigtool.product 4.3.0.201609080034.
+Operation completed in 403 ms.
+[INFO] Installing product org.csstudio.csns.jms2rdb.product for environment linux/gtk/x86 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.jms2rdb.product/linux/gtk/x86/jms2rdb-4.3.0
+Installing org.csstudio.csns.jms2rdb.product 4.3.0.201609080034.
+Operation completed in 342 ms.
+[INFO] Installing product org.csstudio.csns.jms2rdb.product for environment linux/gtk/x86_64 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.jms2rdb.product/linux/gtk/x86_64/jms2rdb-4.3.0
+Installing org.csstudio.csns.jms2rdb.product 4.3.0.201609080034.
+Operation completed in 391 ms.
+[INFO] Installing product org.csstudio.csns.jms2rdb.product for environment win32/win32/x86 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.jms2rdb.product/win32/win32/x86/jms2rdb-4.3.0
+Installing org.csstudio.csns.jms2rdb.product 4.3.0.201609080034.
+Operation completed in 2489 ms.
+[INFO] Installing product org.csstudio.csns.jms2rdb.product for environment win32/win32/x86_64 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.jms2rdb.product/win32/win32/x86_64/jms2rdb-4.3.0
+Installing org.csstudio.csns.jms2rdb.product 4.3.0.201609080034.
+Operation completed in 354 ms.
+[INFO] Installing product org.csstudio.csns.jms2rdb.product for environment macosx/cocoa/x86_64 to /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/org.csstudio.csns.jms2rdb.product/macosx/cocoa/x86_64/jms2rdb-4.3.0
+Installing org.csstudio.csns.jms2rdb.product 4.3.0.201609080034.
+Operation completed in 345 ms.
+[INFO] 
+[INFO] --- tycho-p2-director-plugin:0.23.1:archive-products (archive-products) @ csns-repository ---
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/csns-csstudio-4.3.0-linux.gtk.x86.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/csns-csstudio-4.3.0-linux.gtk.x86_64.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/csns-csstudio-4.3.0-win32.win32.x86.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/csns-csstudio-4.3.0-win32.win32.x86_64.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/csns-csstudio-4.3.0-macosx.cocoa.x86_64.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/scanserver-4.3.0-linux.gtk.x86.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/scanserver-4.3.0-linux.gtk.x86_64.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/scanserver-4.3.0-win32.win32.x86.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/scanserver-4.3.0-win32.win32.x86_64.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/scanserver-4.3.0-macosx.cocoa.x86_64.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/archiveengine-4.3.0-linux.gtk.x86.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/archiveengine-4.3.0-linux.gtk.x86_64.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/archiveengine-4.3.0-win32.win32.x86.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/archiveengine-4.3.0-win32.win32.x86_64.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/archiveengine-4.3.0-macosx.cocoa.x86_64.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/archiveconfigtool-4.3.0-linux.gtk.x86.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/archiveconfigtool-4.3.0-linux.gtk.x86_64.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/archiveconfigtool-4.3.0-win32.win32.x86.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/archiveconfigtool-4.3.0-win32.win32.x86_64.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/archiveconfigtool-4.3.0-macosx.cocoa.x86_64.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/alarmserver-4.3.0-linux.gtk.x86.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/alarmserver-4.3.0-linux.gtk.x86_64.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/alarmserver-4.3.0-win32.win32.x86.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/alarmserver-4.3.0-win32.win32.x86_64.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/alarmserver-4.3.0-macosx.cocoa.x86_64.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/alarmconfigtool-4.3.0-linux.gtk.x86.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/alarmconfigtool-4.3.0-linux.gtk.x86_64.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/alarmconfigtool-4.3.0-win32.win32.x86.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/alarmconfigtool-4.3.0-win32.win32.x86_64.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/alarmconfigtool-4.3.0-macosx.cocoa.x86_64.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/jms2rdb-4.3.0-linux.gtk.x86.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/jms2rdb-4.3.0-linux.gtk.x86_64.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/jms2rdb-4.3.0-win32.win32.x86.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/jms2rdb-4.3.0-win32.win32.x86_64.zip
+[INFO] Building zip: /home/egcs/CSSV4.3/org.csstudio.csns.product/csns-repository/target/products/jms2rdb-4.3.0-macosx.cocoa.x86_64.zip
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] csns-css-product ................................... SUCCESS [  0.047 s]
+[INFO] csns-plugins ....................................... SUCCESS [  0.002 s]
+[INFO] org.csstudio.csns.css.product ...................... SUCCESS [  0.717 s]
+[INFO] csns-features ...................................... SUCCESS [  0.002 s]
+[INFO] org.csstudio.csns.product.feature .................. SUCCESS [  0.112 s]
+[INFO] csns-repository .................................... SUCCESS [04:58 min]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 18:06 min
+[INFO] Finished at: 2016-09-05T17:39:16+08:00
+[INFO] Final Memory: 156M/928M
+[INFO] ------------------------------------------------------------------------

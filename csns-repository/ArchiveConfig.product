@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="ArchiveConfigTool" uid="org.csstudio.csns.archiveconfigtool.product" id="org.csstudio.archive.config.rdb.product" application="org.csstudio.archive.config.rdb.app" version="4.1.0" useFeatures="false" includeLaunchers="true">
+<product name="ArchiveConfigTool" uid="org.csstudio.csns.archiveconfigtool.product" id="org.csstudio.archive.config.rdb.product" application="org.csstudio.archive.config.rdb.app" version="4.3.0.qualifier" useFeatures="false" includeLaunchers="true">
 
    <configIni use="default">
    </configIni>
@@ -34,14 +34,16 @@
       <plugin id="org.csstudio.archive.config.rdb"/>
       <plugin id="org.csstudio.archive.rdb"/>
       <plugin id="org.csstudio.archive.vtype"/>
+      <plugin id="org.csstudio.data"/>
       <plugin id="org.csstudio.java"/>
       <plugin id="org.csstudio.logging"/>
       <plugin id="org.csstudio.platform.libs.jdbc"/>
       <plugin id="org.csstudio.platform.libs.jms"/>
       <plugin id="org.csstudio.platform.utility.rdb"/>
       <plugin id="org.csstudio.security"/>
-      <plugin id="org.csstudio.utility.test"/>
       <plugin id="org.csstudio.workspace"/>
+      <plugin id="org.diirt.util"/>
+      <plugin id="org.diirt.vtype"/>
       <plugin id="org.eclipse.core.contenttype"/>
       <plugin id="org.eclipse.core.expressions"/>
       <plugin id="org.eclipse.core.jobs"/>
@@ -61,8 +63,6 @@
       <plugin id="org.eclipse.osgi"/>
       <plugin id="org.eclipse.osgi.compatibility.state" fragment="true"/>
       <plugin id="org.eclipse.osgi.services"/>
-      <plugin id="org.epics.util"/>
-      <plugin id="org.epics.vtype"/>
       <plugin id="org.hamcrest.core"/>
       <plugin id="org.junit"/>
    </plugins>
